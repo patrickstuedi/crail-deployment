@@ -1,0 +1,15 @@
+/home/ec2-user/alluxio-1.4.0/examples/src/main/java/alluxio/examples/BasicCheckpoint.java
+/home/ec2-user/alluxio-1.4.0/examples/src/main/java/alluxio/examples/keyvalue/KeyValueStoreOperations.java
+/home/ec2-user/alluxio-1.4.0/examples/src/main/java/alluxio/cli/TestRunner.java
+/home/ec2-user/alluxio-1.4.0/examples/src/main/java/alluxio/examples/MultiMount.java
+/home/ec2-user/alluxio-1.4.0/examples/src/main/java/alluxio/examples/BasicOperations.java
+/home/ec2-user/alluxio-1.4.0/examples/src/main/java/alluxio/cli/JournalCrashTest.java
+/home/ec2-user/alluxio-1.4.0/examples/src/main/java/alluxio/examples/keyvalue/KeyValueStoreQuickStart.java
+/home/ec2-user/alluxio-1.4.0/examples/src/main/java/alluxio/examples/keyvalue/ShowKeyValueStore.java
+/home/ec2-user/alluxio-1.4.0/examples/src/main/java/alluxio/examples/keyvalue/hadoop/CloneStoreMapReduce.java
+/home/ec2-user/alluxio-1.4.0/examples/src/main/java/alluxio/examples/Performance.java
+/home/ec2-user/alluxio-1.4.0/examples/src/main/java/alluxio/cli/MiniBenchmark.java
+/home/ec2-user/alluxio-1.4.0/examples/src/main/java/alluxio/cli/CliUtils.java
+/home/ec2-user/alluxio-1.4.0/examples/src/main/java/alluxio/examples/keyvalue/SameKeyValueStoresTest.java
+/home/ec2-user/alluxio-1.4.0/examples/src/main/java/alluxio/cli/AlluxioFrameworkIntegrationTest.java
+/home/ec2-user/alluxio-1.4.0/examples/src/main/java/alluxio/examples/BasicNonByteBufferOperations.java

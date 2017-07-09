@@ -1,0 +1,30 @@
+crail.blocksize				1048576
+crail.buffersize			1048576
+crail.cachelimit			32212254720
+crail.cachepath				/mnt/hugetlbfs/craildata/cache
+crail.singleton				true
+crail.statistics 			true
+crail.token.expiration			1
+crail.hdfs.storageaffinity		1
+crail.debug				false
+
+crail.namenode.address			crail://flex11-40g0:9060
+crail.namenode.rpc.type                 com.ibm.crail.namenode.rpc.darpc.DaRPCNameNode
+
+; DARPC properties
+crail.namenode.darpc.queuesize		64
+
+crail.storage.types			com.ibm.crail.storage.rdma.RdmaStorageTier
+; RDMA properties
+crail.storage.rdma.interface		enp27s0f4
+crail.storage.rdma.port			50020
+crail.storage.rdma.allocationsize	1073741824
+crail.storage.rdma.storagelimit		107374182400
+crail.storage.rdma.datapath		/mnt/hugetlbfs/craildata/datanode
+crail.storage.rdma.indexpath		/mnt/tmpfs/index
+crail.storage.rdma.localmap 		true
+crail.storage.rdma.concurrent.posts 	32
+crail.storage.rdma.queuesize 		32
+
+; HDFS properties 
+crail.hdfs.localaffinity        true

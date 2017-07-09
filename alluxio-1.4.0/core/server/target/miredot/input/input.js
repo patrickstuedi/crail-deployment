@@ -1,0 +1,9859 @@
+var com = {
+	"qmino":{
+		"miredot":{
+		},
+	},
+};
+com.qmino.miredot.restApiSource = {
+	"projectName":"Alluxio Core - Server",
+	"projectVersion":"1.4.0",
+	"projectTitle":"Alluxio 1.4.0 REST API",
+	"buildSystem":"maven 3",
+	"miredotVersion":"2.0-RC2",
+	"miredotRevision":"44055869d4f8",
+	"jsonDocEnabled":true,
+	"jsonDocHidden":false,
+	"singlePage":false,
+	"hideLogoOnTop":false,
+	"dateOfGeneration":"2017-01-13 04:51:30",
+	"validLicense":true,
+	"licenseErrorMessage":[
+		
+	],
+	"onlineLicense":false,
+	"loginUrl":null,
+	"licenseType":"PRO",
+	"allowUsageTracking":true,
+	"licenseHash":"-3883544653169202720",
+	"baseUrl":"http://host:port/api/v1",
+	"applicationPath":"",
+	"issuesTabHidden":false,
+};
+
+com.qmino.miredot.restApiSource.tos = {
+	"alluxio_wire_LineageInfo_in":{
+		"type":"complex",
+		"name":"alluxio_wire_LineageInfo_in",
+		"content":[
+		],
+	},
+	"alluxio_wire_LineageInfo_out":{
+		"type":"complex",
+		"name":"alluxio_wire_LineageInfo_out",
+		"content":[
+		],
+	},
+	"alluxio_client_file_options_MountOptions_in":{
+		"type":"complex",
+		"name":"alluxio_client_file_options_MountOptions_in",
+		"content":[
+		],
+	},
+	"alluxio_client_file_options_MountOptions_out":{
+		"type":"complex",
+		"name":"alluxio_client_file_options_MountOptions_out",
+		"content":[
+		],
+	},
+	"alluxio_client_file_URIStatus_in":{
+		"type":"complex",
+		"name":"alluxio_client_file_URIStatus_in",
+		"content":[
+		],
+	},
+	"alluxio_client_file_URIStatus_out":{
+		"type":"complex",
+		"name":"alluxio_client_file_URIStatus_out",
+		"content":[
+		],
+	},
+	"javax_ws_rs_core_NewCookie_in":{
+		"type":"complex",
+		"name":"javax_ws_rs_core_NewCookie_in",
+		"content":[
+		],
+	},
+	"javax_ws_rs_core_NewCookie_out":{
+		"type":"complex",
+		"name":"javax_ws_rs_core_NewCookie_out",
+		"content":[
+		],
+	},
+	"alluxio_client_file_options_DeleteOptions_in":{
+		"type":"complex",
+		"name":"alluxio_client_file_options_DeleteOptions_in",
+		"content":[
+		],
+	},
+	"alluxio_client_file_options_DeleteOptions_out":{
+		"type":"complex",
+		"name":"alluxio_client_file_options_DeleteOptions_out",
+		"content":[
+		],
+	},
+	"javax_ws_rs_core_Response_in":{
+		"type":"complex",
+		"name":"javax_ws_rs_core_Response_in",
+		"content":[
+		],
+	},
+	"javax_ws_rs_core_Response_out":{
+		"type":"complex",
+		"name":"javax_ws_rs_core_Response_out",
+		"content":[
+		],
+	},
+	"alluxio_wire_JobConfInfo_in":{
+		"type":"complex",
+		"name":"alluxio_wire_JobConfInfo_in",
+		"content":[
+		],
+	},
+	"alluxio_wire_JobConfInfo_out":{
+		"type":"complex",
+		"name":"alluxio_wire_JobConfInfo_out",
+		"content":[
+		],
+	},
+	"javax_ws_rs_core_UriBuilder_in":{
+		"type":"complex",
+		"name":"javax_ws_rs_core_UriBuilder_in",
+		"content":[
+		],
+	},
+	"javax_ws_rs_core_UriBuilder_out":{
+		"type":"complex",
+		"name":"javax_ws_rs_core_UriBuilder_out",
+		"content":[
+		],
+	},
+	"javax_ws_rs_core_MediaType_in":{
+		"type":"complex",
+		"name":"javax_ws_rs_core_MediaType_in",
+		"content":[
+		],
+	},
+	"javax_ws_rs_core_MediaType_out":{
+		"type":"complex",
+		"name":"javax_ws_rs_core_MediaType_out",
+		"content":[
+		],
+	},
+	"alluxio_client_file_options_RenameOptions_in":{
+		"type":"complex",
+		"name":"alluxio_client_file_options_RenameOptions_in",
+		"content":[
+		],
+	},
+	"alluxio_client_file_options_RenameOptions_out":{
+		"type":"complex",
+		"name":"alluxio_client_file_options_RenameOptions_out",
+		"content":[
+		],
+	},
+	"alluxio_security_authorization_Mode_in":{
+		"type":"complex",
+		"name":"alluxio_security_authorization_Mode_in",
+		"content":[
+		],
+	},
+	"alluxio_security_authorization_Mode_out":{
+		"type":"complex",
+		"name":"alluxio_security_authorization_Mode_out",
+		"content":[
+		],
+	},
+	"alluxio_wire_CommandLineJobInfo_in":{
+		"type":"complex",
+		"name":"alluxio_wire_CommandLineJobInfo_in",
+		"content":[
+		],
+	},
+	"alluxio_wire_CommandLineJobInfo_out":{
+		"type":"complex",
+		"name":"alluxio_wire_CommandLineJobInfo_out",
+		"content":[
+		],
+	},
+	"alluxio_client_file_options_GetStatusOptions_in":{
+		"type":"complex",
+		"name":"alluxio_client_file_options_GetStatusOptions_in",
+		"content":[
+		],
+	},
+	"alluxio_client_file_options_GetStatusOptions_out":{
+		"type":"complex",
+		"name":"alluxio_client_file_options_GetStatusOptions_out",
+		"content":[
+		],
+	},
+	"alluxio_client_file_options_FreeOptions_in":{
+		"type":"complex",
+		"name":"alluxio_client_file_options_FreeOptions_in",
+		"content":[
+		],
+	},
+	"alluxio_client_file_options_FreeOptions_out":{
+		"type":"complex",
+		"name":"alluxio_client_file_options_FreeOptions_out",
+		"content":[
+		],
+	},
+	"alluxio_client_file_options_UnmountOptions_in":{
+		"type":"complex",
+		"name":"alluxio_client_file_options_UnmountOptions_in",
+		"content":[
+		],
+	},
+	"alluxio_client_file_options_UnmountOptions_out":{
+		"type":"complex",
+		"name":"alluxio_client_file_options_UnmountOptions_out",
+		"content":[
+		],
+	},
+	"javax_ws_rs_core_Link_in":{
+		"type":"complex",
+		"name":"javax_ws_rs_core_Link_in",
+		"content":[
+		],
+	},
+	"javax_ws_rs_core_Link_out":{
+		"type":"complex",
+		"name":"javax_ws_rs_core_Link_out",
+		"content":[
+		],
+	},
+	"alluxio_wire_FileBlockInfo_in":{
+		"type":"complex",
+		"name":"alluxio_wire_FileBlockInfo_in",
+		"content":[
+		],
+	},
+	"alluxio_wire_FileBlockInfo_out":{
+		"type":"complex",
+		"name":"alluxio_wire_FileBlockInfo_out",
+		"content":[
+		],
+	},
+	"alluxio_wire_BlockLocation_in":{
+		"type":"complex",
+		"name":"alluxio_wire_BlockLocation_in",
+		"content":[
+		],
+	},
+	"alluxio_wire_BlockLocation_out":{
+		"type":"complex",
+		"name":"alluxio_wire_BlockLocation_out",
+		"content":[
+		],
+	},
+	"alluxio_client_file_options_CreateDirectoryOptions_in":{
+		"type":"complex",
+		"name":"alluxio_client_file_options_CreateDirectoryOptions_in",
+		"content":[
+		],
+	},
+	"alluxio_client_file_options_CreateDirectoryOptions_out":{
+		"type":"complex",
+		"name":"alluxio_client_file_options_CreateDirectoryOptions_out",
+		"content":[
+		],
+	},
+	"alluxio_wire_FileInfo_in":{
+		"type":"complex",
+		"name":"alluxio_wire_FileInfo_in",
+		"content":[
+		],
+	},
+	"alluxio_wire_FileInfo_out":{
+		"type":"complex",
+		"name":"alluxio_wire_FileInfo_out",
+		"content":[
+		],
+	},
+	"alluxio_wire_BlockInfo_in":{
+		"type":"complex",
+		"name":"alluxio_wire_BlockInfo_in",
+		"content":[
+		],
+	},
+	"alluxio_wire_BlockInfo_out":{
+		"type":"complex",
+		"name":"alluxio_wire_BlockInfo_out",
+		"content":[
+		],
+	},
+	"alluxio_wire_LockBlockResult_in":{
+		"type":"complex",
+		"name":"alluxio_wire_LockBlockResult_in",
+		"content":[
+		],
+	},
+	"alluxio_wire_LockBlockResult_out":{
+		"type":"complex",
+		"name":"alluxio_wire_LockBlockResult_out",
+		"content":[
+		],
+	},
+	"alluxio_client_file_options_SetAttributeOptions_in":{
+		"type":"complex",
+		"name":"alluxio_client_file_options_SetAttributeOptions_in",
+		"content":[
+		],
+	},
+	"alluxio_client_file_options_SetAttributeOptions_out":{
+		"type":"complex",
+		"name":"alluxio_client_file_options_SetAttributeOptions_out",
+		"content":[
+		],
+	},
+	"alluxio_client_file_options_OpenFileOptions_in":{
+		"type":"complex",
+		"name":"alluxio_client_file_options_OpenFileOptions_in",
+		"content":[
+		],
+	},
+	"alluxio_client_file_options_OpenFileOptions_out":{
+		"type":"complex",
+		"name":"alluxio_client_file_options_OpenFileOptions_out",
+		"content":[
+		],
+	},
+	"javax_ws_rs_core_EntityTag_in":{
+		"type":"complex",
+		"name":"javax_ws_rs_core_EntityTag_in",
+		"content":[
+		],
+	},
+	"javax_ws_rs_core_EntityTag_out":{
+		"type":"complex",
+		"name":"javax_ws_rs_core_EntityTag_out",
+		"content":[
+		],
+	},
+	"alluxio_wire_WorkerInfo_in":{
+		"type":"complex",
+		"name":"alluxio_wire_WorkerInfo_in",
+		"content":[
+		],
+	},
+	"alluxio_wire_WorkerInfo_out":{
+		"type":"complex",
+		"name":"alluxio_wire_WorkerInfo_out",
+		"content":[
+		],
+	},
+	"alluxio_client_file_options_CreateFileOptions_in":{
+		"type":"complex",
+		"name":"alluxio_client_file_options_CreateFileOptions_in",
+		"content":[
+		],
+	},
+	"alluxio_client_file_options_CreateFileOptions_out":{
+		"type":"complex",
+		"name":"alluxio_client_file_options_CreateFileOptions_out",
+		"content":[
+		],
+	},
+	"alluxio_wire_WorkerNetAddress_in":{
+		"type":"complex",
+		"name":"alluxio_wire_WorkerNetAddress_in",
+		"content":[
+		],
+	},
+	"alluxio_wire_WorkerNetAddress_out":{
+		"type":"complex",
+		"name":"alluxio_wire_WorkerNetAddress_out",
+		"content":[
+		],
+	},
+	"alluxio_wire_MountPointInfo_in":{
+		"type":"complex",
+		"name":"alluxio_wire_MountPointInfo_in",
+		"content":[
+		],
+	},
+	"alluxio_wire_MountPointInfo_out":{
+		"type":"complex",
+		"name":"alluxio_wire_MountPointInfo_out",
+		"content":[
+		],
+	},
+	"javax_ws_rs_core_Response$StatusType_in":{
+		"type":"complex",
+		"name":"javax_ws_rs_core_Response$StatusType_in",
+		"content":[
+		],
+	},
+	"javax_ws_rs_core_Response$StatusType_out":{
+		"type":"complex",
+		"name":"javax_ws_rs_core_Response$StatusType_out",
+		"content":[
+		],
+	},
+	"alluxio_client_file_options_ListStatusOptions_in":{
+		"type":"complex",
+		"name":"alluxio_client_file_options_ListStatusOptions_in",
+		"content":[
+		],
+	},
+	"alluxio_client_file_options_ListStatusOptions_out":{
+		"type":"complex",
+		"name":"alluxio_client_file_options_ListStatusOptions_out",
+		"content":[
+		],
+	},
+	"alluxio_client_file_options_ExistsOptions_in":{
+		"type":"complex",
+		"name":"alluxio_client_file_options_ExistsOptions_in",
+		"content":[
+		],
+	},
+	"alluxio_client_file_options_ExistsOptions_out":{
+		"type":"complex",
+		"name":"alluxio_client_file_options_ExistsOptions_out",
+		"content":[
+		],
+	},
+};
+com.qmino.miredot.restApiSource.enums = {
+	"alluxio_security_authorization_Mode$Bits":{
+		"type":"enum",
+		"name":"alluxio.security.authorization.Mode$Bits",
+		"values":[
+			{
+				"name":"NONE",
+				"comment":null,
+			},
+			{
+				"name":"EXECUTE",
+				"comment":null,
+			},
+			{
+				"name":"WRITE",
+				"comment":null,
+			},
+			{
+				"name":"WRITE_EXECUTE",
+				"comment":null,
+			},
+			{
+				"name":"READ",
+				"comment":null,
+			},
+			{
+				"name":"READ_EXECUTE",
+				"comment":null,
+			},
+			{
+				"name":"READ_WRITE",
+				"comment":null,
+			},
+			{
+				"name":"ALL",
+				"comment":null,
+			},
+		],
+	},
+	"javax_ws_rs_core_Response$Status$Family":{
+		"type":"enum",
+		"name":"javax.ws.rs.core.Response$Status$Family",
+		"values":[
+			{
+				"name":"INFORMATIONAL",
+				"comment":null,
+			},
+			{
+				"name":"SUCCESSFUL",
+				"comment":null,
+			},
+			{
+				"name":"REDIRECTION",
+				"comment":null,
+			},
+			{
+				"name":"CLIENT_ERROR",
+				"comment":null,
+			},
+			{
+				"name":"SERVER_ERROR",
+				"comment":null,
+			},
+			{
+				"name":"OTHER",
+				"comment":null,
+			},
+		],
+	},
+	"alluxio_wire_TtlAction":{
+		"type":"enum",
+		"name":"alluxio.wire.TtlAction",
+		"values":[
+			{
+				"name":"DELETE",
+				"comment":null,
+			},
+			{
+				"name":"FREE",
+				"comment":null,
+			},
+		],
+	},
+	"alluxio_client_ReadType":{
+		"type":"enum",
+		"name":"alluxio.client.ReadType",
+		"values":[
+			{
+				"name":"NO_CACHE",
+				"comment":null,
+			},
+			{
+				"name":"CACHE",
+				"comment":null,
+			},
+			{
+				"name":"CACHE_PROMOTE",
+				"comment":null,
+			},
+		],
+	},
+	"alluxio_client_WriteType":{
+		"type":"enum",
+		"name":"alluxio.client.WriteType",
+		"values":[
+			{
+				"name":"MUST_CACHE",
+				"comment":null,
+			},
+			{
+				"name":"TRY_CACHE",
+				"comment":null,
+			},
+			{
+				"name":"CACHE_THROUGH",
+				"comment":null,
+			},
+			{
+				"name":"THROUGH",
+				"comment":null,
+			},
+			{
+				"name":"ASYNC_THROUGH",
+				"comment":null,
+			},
+			{
+				"name":"NONE",
+				"comment":null,
+			},
+		],
+	},
+	"alluxio_wire_LoadMetadataType":{
+		"type":"enum",
+		"name":"alluxio.wire.LoadMetadataType",
+		"values":[
+			{
+				"name":"Never",
+				"comment":null,
+			},
+			{
+				"name":"Once",
+				"comment":null,
+			},
+			{
+				"name":"Always",
+				"comment":null,
+			},
+		],
+	},
+};
+com.qmino.miredot.restApiSource.tos["alluxio_wire_LineageInfo_in"].content = [
+	{
+		"name":"inputFiles",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"collection",
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"string",
+			},
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"creationTimeMs",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"parents",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"collection",
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"number",
+			},
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"outputFiles",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"collection",
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"string",
+			},
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"job",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":com.qmino.miredot.restApiSource.tos["alluxio_wire_CommandLineJobInfo_in"],
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"id",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"children",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"collection",
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"number",
+			},
+		},
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["alluxio_wire_LineageInfo_in"].ordered = false;
+com.qmino.miredot.restApiSource.tos["alluxio_wire_LineageInfo_in"].comment = null;
+com.qmino.miredot.restApiSource.tos["alluxio_wire_LineageInfo_out"].content = [
+	{
+		"name":"inputFiles",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"collection",
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"string",
+			},
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"creationTimeMs",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"job",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":com.qmino.miredot.restApiSource.tos["alluxio_wire_CommandLineJobInfo_out"],
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"outputFiles",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"collection",
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"string",
+			},
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"children",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"collection",
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"number",
+			},
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"parents",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"collection",
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"number",
+			},
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"id",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["alluxio_wire_LineageInfo_out"].ordered = false;
+com.qmino.miredot.restApiSource.tos["alluxio_wire_LineageInfo_out"].comment = null;
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_MountOptions_in"].content = [
+	{
+		"name":"shared",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"boolean",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"properties",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"map",
+			"typeKey":{
+				"type":"simple",
+				"typeValue":"string",
+			},
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"string",
+			},
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"readOnly",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"boolean",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_MountOptions_in"].ordered = false;
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_MountOptions_in"].comment = null;
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_MountOptions_out"].content = [
+	{
+		"name":"properties",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"map",
+			"typeKey":{
+				"type":"simple",
+				"typeValue":"string",
+			},
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"string",
+			},
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"readOnly",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"boolean",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"shared",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"boolean",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_MountOptions_out"].ordered = false;
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_MountOptions_out"].comment = null;
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_URIStatus_in"].content = [
+];
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_URIStatus_in"].ordered = false;
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_URIStatus_in"].comment = null;
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_URIStatus_out"].content = [
+	{
+		"name":"folder",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"boolean",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"cacheable",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"boolean",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"mode",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"fileId",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"persistenceState",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"creationTimeMs",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"blockSizeBytes",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"lastModificationTimeMs",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"ttl",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"ttlAction",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":com.qmino.miredot.restApiSource.enums["alluxio_wire_TtlAction"],
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"blockIds",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"collection",
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"number",
+			},
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"ufsPath",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"inMemoryPercentage",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"pinned",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"boolean",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"persisted",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"boolean",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"mountPoint",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"boolean",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"completed",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"boolean",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"fileBlockInfos",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"collection",
+			"typeValue":com.qmino.miredot.restApiSource.tos["alluxio_wire_FileBlockInfo_out"],
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"group",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"length",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"name",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"path",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"owner",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_URIStatus_out"].ordered = false;
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_URIStatus_out"].comment = null;
+com.qmino.miredot.restApiSource.tos["javax_ws_rs_core_NewCookie_in"].content = [
+];
+com.qmino.miredot.restApiSource.tos["javax_ws_rs_core_NewCookie_in"].ordered = false;
+com.qmino.miredot.restApiSource.tos["javax_ws_rs_core_NewCookie_in"].comment = null;
+com.qmino.miredot.restApiSource.tos["javax_ws_rs_core_NewCookie_out"].content = [
+	{
+		"name":"version",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"domain",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"name",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"value",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"path",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"secure",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"boolean",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"expiry",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"date string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"maxAge",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"httpOnly",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"boolean",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"comment",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["javax_ws_rs_core_NewCookie_out"].ordered = false;
+com.qmino.miredot.restApiSource.tos["javax_ws_rs_core_NewCookie_out"].comment = null;
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_DeleteOptions_in"].content = [
+	{
+		"name":"recursive",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"boolean",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_DeleteOptions_in"].ordered = false;
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_DeleteOptions_in"].comment = null;
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_DeleteOptions_out"].content = [
+	{
+		"name":"recursive",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"boolean",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_DeleteOptions_out"].ordered = false;
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_DeleteOptions_out"].comment = null;
+com.qmino.miredot.restApiSource.tos["javax_ws_rs_core_Response_in"].content = [
+];
+com.qmino.miredot.restApiSource.tos["javax_ws_rs_core_Response_in"].ordered = false;
+com.qmino.miredot.restApiSource.tos["javax_ws_rs_core_Response_in"].comment = null;
+com.qmino.miredot.restApiSource.tos["javax_ws_rs_core_Response_out"].content = [
+	{
+		"name":"cookies",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"map",
+			"typeKey":{
+				"type":"simple",
+				"typeValue":"string",
+			},
+			"typeValue":com.qmino.miredot.restApiSource.tos["javax_ws_rs_core_NewCookie_out"],
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"links",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"collection",
+			"typeValue":com.qmino.miredot.restApiSource.tos["javax_ws_rs_core_Link_out"],
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"statusInfo",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":com.qmino.miredot.restApiSource.tos["javax_ws_rs_core_Response$StatusType_out"],
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"entityTag",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":com.qmino.miredot.restApiSource.tos["javax_ws_rs_core_EntityTag_out"],
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"stringHeaders",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"map",
+			"typeKey":{
+				"type":"simple",
+				"typeValue":"string",
+			},
+			"typeValue":{
+				"type":"collection",
+				"typeValue":{
+					"type":"simple",
+					"typeValue":"string",
+				},
+			},
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"mediaType",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":com.qmino.miredot.restApiSource.tos["javax_ws_rs_core_MediaType_out"],
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"allowedMethods",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"collection",
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"string",
+			},
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"lastModified",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"date string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"headers",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"map",
+			"typeKey":{
+				"type":"simple",
+				"typeValue":"string",
+			},
+			"typeValue":{
+				"type":"collection",
+				"typeValue":{
+					"type":"simple",
+					"typeValue":"object",
+				},
+			},
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"date",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"date string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"metadata",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"map",
+			"typeKey":{
+				"type":"simple",
+				"typeValue":"string",
+			},
+			"typeValue":{
+				"type":"collection",
+				"typeValue":{
+					"type":"simple",
+					"typeValue":"object",
+				},
+			},
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"entity",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"object",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"status",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"length",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"language",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"java.util.Locale",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"location",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"java.net.URI",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["javax_ws_rs_core_Response_out"].ordered = false;
+com.qmino.miredot.restApiSource.tos["javax_ws_rs_core_Response_out"].comment = null;
+com.qmino.miredot.restApiSource.tos["alluxio_wire_JobConfInfo_in"].content = [
+	{
+		"name":"outputFile",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["alluxio_wire_JobConfInfo_in"].ordered = false;
+com.qmino.miredot.restApiSource.tos["alluxio_wire_JobConfInfo_in"].comment = null;
+com.qmino.miredot.restApiSource.tos["alluxio_wire_JobConfInfo_out"].content = [
+	{
+		"name":"outputFile",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["alluxio_wire_JobConfInfo_out"].ordered = false;
+com.qmino.miredot.restApiSource.tos["alluxio_wire_JobConfInfo_out"].comment = null;
+com.qmino.miredot.restApiSource.tos["javax_ws_rs_core_UriBuilder_in"].content = [
+];
+com.qmino.miredot.restApiSource.tos["javax_ws_rs_core_UriBuilder_in"].ordered = false;
+com.qmino.miredot.restApiSource.tos["javax_ws_rs_core_UriBuilder_in"].comment = null;
+com.qmino.miredot.restApiSource.tos["javax_ws_rs_core_UriBuilder_out"].content = [
+];
+com.qmino.miredot.restApiSource.tos["javax_ws_rs_core_UriBuilder_out"].ordered = false;
+com.qmino.miredot.restApiSource.tos["javax_ws_rs_core_UriBuilder_out"].comment = null;
+com.qmino.miredot.restApiSource.tos["javax_ws_rs_core_MediaType_in"].content = [
+];
+com.qmino.miredot.restApiSource.tos["javax_ws_rs_core_MediaType_in"].ordered = false;
+com.qmino.miredot.restApiSource.tos["javax_ws_rs_core_MediaType_in"].comment = null;
+com.qmino.miredot.restApiSource.tos["javax_ws_rs_core_MediaType_out"].content = [
+	{
+		"name":"wildcardType",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"boolean",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"subtype",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"wildcardSubtype",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"boolean",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"parameters",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"map",
+			"typeKey":{
+				"type":"simple",
+				"typeValue":"string",
+			},
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"string",
+			},
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"type",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["javax_ws_rs_core_MediaType_out"].ordered = false;
+com.qmino.miredot.restApiSource.tos["javax_ws_rs_core_MediaType_out"].comment = null;
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_RenameOptions_in"].content = [
+];
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_RenameOptions_in"].ordered = false;
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_RenameOptions_in"].comment = null;
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_RenameOptions_out"].content = [
+];
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_RenameOptions_out"].ordered = false;
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_RenameOptions_out"].comment = null;
+com.qmino.miredot.restApiSource.tos["alluxio_security_authorization_Mode_in"].content = [
+	{
+		"name":"otherBits",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":com.qmino.miredot.restApiSource.enums["alluxio_security_authorization_Mode$Bits"],
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"ownerBits",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":com.qmino.miredot.restApiSource.enums["alluxio_security_authorization_Mode$Bits"],
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"groupBits",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":com.qmino.miredot.restApiSource.enums["alluxio_security_authorization_Mode$Bits"],
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["alluxio_security_authorization_Mode_in"].ordered = false;
+com.qmino.miredot.restApiSource.tos["alluxio_security_authorization_Mode_in"].comment = null;
+com.qmino.miredot.restApiSource.tos["alluxio_security_authorization_Mode_out"].content = [
+	{
+		"name":"otherBits",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":com.qmino.miredot.restApiSource.enums["alluxio_security_authorization_Mode$Bits"],
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"ownerBits",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":com.qmino.miredot.restApiSource.enums["alluxio_security_authorization_Mode$Bits"],
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"groupBits",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":com.qmino.miredot.restApiSource.enums["alluxio_security_authorization_Mode$Bits"],
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["alluxio_security_authorization_Mode_out"].ordered = false;
+com.qmino.miredot.restApiSource.tos["alluxio_security_authorization_Mode_out"].comment = null;
+com.qmino.miredot.restApiSource.tos["alluxio_wire_CommandLineJobInfo_in"].content = [
+	{
+		"name":"conf",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":com.qmino.miredot.restApiSource.tos["alluxio_wire_JobConfInfo_in"],
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"command",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["alluxio_wire_CommandLineJobInfo_in"].ordered = false;
+com.qmino.miredot.restApiSource.tos["alluxio_wire_CommandLineJobInfo_in"].comment = null;
+com.qmino.miredot.restApiSource.tos["alluxio_wire_CommandLineJobInfo_out"].content = [
+	{
+		"name":"command",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"conf",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":com.qmino.miredot.restApiSource.tos["alluxio_wire_JobConfInfo_out"],
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["alluxio_wire_CommandLineJobInfo_out"].ordered = false;
+com.qmino.miredot.restApiSource.tos["alluxio_wire_CommandLineJobInfo_out"].comment = null;
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_GetStatusOptions_in"].content = [
+];
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_GetStatusOptions_in"].ordered = false;
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_GetStatusOptions_in"].comment = null;
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_GetStatusOptions_out"].content = [
+];
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_GetStatusOptions_out"].ordered = false;
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_GetStatusOptions_out"].comment = null;
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_FreeOptions_in"].content = [
+	{
+		"name":"recursive",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"boolean",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_FreeOptions_in"].ordered = false;
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_FreeOptions_in"].comment = null;
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_FreeOptions_out"].content = [
+	{
+		"name":"recursive",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"boolean",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_FreeOptions_out"].ordered = false;
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_FreeOptions_out"].comment = null;
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_UnmountOptions_in"].content = [
+];
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_UnmountOptions_in"].ordered = false;
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_UnmountOptions_in"].comment = null;
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_UnmountOptions_out"].content = [
+];
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_UnmountOptions_out"].ordered = false;
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_UnmountOptions_out"].comment = null;
+com.qmino.miredot.restApiSource.tos["javax_ws_rs_core_Link_in"].content = [
+];
+com.qmino.miredot.restApiSource.tos["javax_ws_rs_core_Link_in"].ordered = false;
+com.qmino.miredot.restApiSource.tos["javax_ws_rs_core_Link_in"].comment = null;
+com.qmino.miredot.restApiSource.tos["javax_ws_rs_core_Link_out"].content = [
+	{
+		"name":"uri",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"java.net.URI",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"title",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"uriBuilder",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":com.qmino.miredot.restApiSource.tos["javax_ws_rs_core_UriBuilder_out"],
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"rel",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"rels",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"collection",
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"string",
+			},
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"params",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"map",
+			"typeKey":{
+				"type":"simple",
+				"typeValue":"string",
+			},
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"string",
+			},
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"type",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["javax_ws_rs_core_Link_out"].ordered = false;
+com.qmino.miredot.restApiSource.tos["javax_ws_rs_core_Link_out"].comment = null;
+com.qmino.miredot.restApiSource.tos["alluxio_wire_FileBlockInfo_in"].content = [
+	{
+		"name":"blockInfo",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":com.qmino.miredot.restApiSource.tos["alluxio_wire_BlockInfo_in"],
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"ufsLocations",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"collection",
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"string",
+			},
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"offset",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["alluxio_wire_FileBlockInfo_in"].ordered = false;
+com.qmino.miredot.restApiSource.tos["alluxio_wire_FileBlockInfo_in"].comment = null;
+com.qmino.miredot.restApiSource.tos["alluxio_wire_FileBlockInfo_out"].content = [
+	{
+		"name":"blockInfo",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":com.qmino.miredot.restApiSource.tos["alluxio_wire_BlockInfo_out"],
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"ufsLocations",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"collection",
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"string",
+			},
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"offset",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["alluxio_wire_FileBlockInfo_out"].ordered = false;
+com.qmino.miredot.restApiSource.tos["alluxio_wire_FileBlockInfo_out"].comment = null;
+com.qmino.miredot.restApiSource.tos["alluxio_wire_BlockLocation_in"].content = [
+	{
+		"name":"workerId",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"workerAddress",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":com.qmino.miredot.restApiSource.tos["alluxio_wire_WorkerNetAddress_in"],
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"tierAlias",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["alluxio_wire_BlockLocation_in"].ordered = false;
+com.qmino.miredot.restApiSource.tos["alluxio_wire_BlockLocation_in"].comment = null;
+com.qmino.miredot.restApiSource.tos["alluxio_wire_BlockLocation_out"].content = [
+	{
+		"name":"workerId",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"workerAddress",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":com.qmino.miredot.restApiSource.tos["alluxio_wire_WorkerNetAddress_out"],
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"tierAlias",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["alluxio_wire_BlockLocation_out"].ordered = false;
+com.qmino.miredot.restApiSource.tos["alluxio_wire_BlockLocation_out"].comment = null;
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_CreateDirectoryOptions_in"].content = [
+	{
+		"name":"mode",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":com.qmino.miredot.restApiSource.tos["alluxio_security_authorization_Mode_in"],
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"allowExists",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"boolean",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"writeType",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":com.qmino.miredot.restApiSource.enums["alluxio_client_WriteType"],
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"recursive",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"boolean",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_CreateDirectoryOptions_in"].ordered = false;
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_CreateDirectoryOptions_in"].comment = null;
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_CreateDirectoryOptions_out"].content = [
+	{
+		"name":"mode",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":com.qmino.miredot.restApiSource.tos["alluxio_security_authorization_Mode_out"],
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"allowExists",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"boolean",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"writeType",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":com.qmino.miredot.restApiSource.enums["alluxio_client_WriteType"],
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"recursive",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"boolean",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_CreateDirectoryOptions_out"].ordered = false;
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_CreateDirectoryOptions_out"].comment = null;
+com.qmino.miredot.restApiSource.tos["alluxio_wire_FileInfo_in"].content = [
+	{
+		"name":"path",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"mode",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"blockSizeBytes",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"ttl",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"lastModificationTimeMs",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"persistenceState",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"pinned",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"boolean",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"creationTimeMs",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"mountPoint",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"boolean",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"fileId",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"ttlAction",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":com.qmino.miredot.restApiSource.enums["alluxio_wire_TtlAction"],
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"ufsPath",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"persisted",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"boolean",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"completed",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"boolean",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"cacheable",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"boolean",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"blockIds",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"collection",
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"number",
+			},
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"folder",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"boolean",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"inMemoryPercentage",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"fileBlockInfos",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"collection",
+			"typeValue":com.qmino.miredot.restApiSource.tos["alluxio_wire_FileBlockInfo_in"],
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"owner",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"group",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"name",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"length",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["alluxio_wire_FileInfo_in"].ordered = false;
+com.qmino.miredot.restApiSource.tos["alluxio_wire_FileInfo_in"].comment = null;
+com.qmino.miredot.restApiSource.tos["alluxio_wire_FileInfo_out"].content = [
+	{
+		"name":"folder",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"boolean",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"cacheable",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"boolean",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"mode",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"fileId",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"persistenceState",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"creationTimeMs",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"blockSizeBytes",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"lastModificationTimeMs",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"ttl",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"ttlAction",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":com.qmino.miredot.restApiSource.enums["alluxio_wire_TtlAction"],
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"blockIds",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"collection",
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"number",
+			},
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"ufsPath",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"inMemoryPercentage",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"pinned",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"boolean",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"persisted",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"boolean",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"mountPoint",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"boolean",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"completed",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"boolean",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"fileBlockInfos",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"collection",
+			"typeValue":com.qmino.miredot.restApiSource.tos["alluxio_wire_FileBlockInfo_out"],
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"group",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"length",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"name",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"path",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"owner",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["alluxio_wire_FileInfo_out"].ordered = false;
+com.qmino.miredot.restApiSource.tos["alluxio_wire_FileInfo_out"].comment = null;
+com.qmino.miredot.restApiSource.tos["alluxio_wire_BlockInfo_in"].content = [
+	{
+		"name":"blockId",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"locations",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"collection",
+			"typeValue":com.qmino.miredot.restApiSource.tos["alluxio_wire_BlockLocation_in"],
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"length",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["alluxio_wire_BlockInfo_in"].ordered = false;
+com.qmino.miredot.restApiSource.tos["alluxio_wire_BlockInfo_in"].comment = null;
+com.qmino.miredot.restApiSource.tos["alluxio_wire_BlockInfo_out"].content = [
+	{
+		"name":"blockId",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"locations",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"collection",
+			"typeValue":com.qmino.miredot.restApiSource.tos["alluxio_wire_BlockLocation_out"],
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"length",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["alluxio_wire_BlockInfo_out"].ordered = false;
+com.qmino.miredot.restApiSource.tos["alluxio_wire_BlockInfo_out"].comment = null;
+com.qmino.miredot.restApiSource.tos["alluxio_wire_LockBlockResult_in"].content = [
+	{
+		"name":"lockId",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"blockPath",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["alluxio_wire_LockBlockResult_in"].ordered = false;
+com.qmino.miredot.restApiSource.tos["alluxio_wire_LockBlockResult_in"].comment = null;
+com.qmino.miredot.restApiSource.tos["alluxio_wire_LockBlockResult_out"].content = [
+	{
+		"name":"blockPath",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"lockId",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["alluxio_wire_LockBlockResult_out"].ordered = false;
+com.qmino.miredot.restApiSource.tos["alluxio_wire_LockBlockResult_out"].comment = null;
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_SetAttributeOptions_in"].content = [
+	{
+		"name":"mode",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":com.qmino.miredot.restApiSource.tos["alluxio_security_authorization_Mode_in"],
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"ttl",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"pinned",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"boolean",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"ttlAction",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":com.qmino.miredot.restApiSource.enums["alluxio_wire_TtlAction"],
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"persisted",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"boolean",
+		},
+		"deprecated":true,
+		"required":false,
+	},
+	{
+		"name":"owner",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"recursive",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"boolean",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"group",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_SetAttributeOptions_in"].ordered = false;
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_SetAttributeOptions_in"].comment = null;
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_SetAttributeOptions_out"].content = [
+	{
+		"name":"mode",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":com.qmino.miredot.restApiSource.tos["alluxio_security_authorization_Mode_out"],
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"pinned",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"boolean",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"ttl",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"persisted",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"boolean",
+		},
+		"deprecated":true,
+		"required":false,
+	},
+	{
+		"name":"ttlAction",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":com.qmino.miredot.restApiSource.enums["alluxio_wire_TtlAction"],
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"recursive",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"boolean",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"group",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"owner",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_SetAttributeOptions_out"].ordered = false;
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_SetAttributeOptions_out"].comment = null;
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_OpenFileOptions_in"].content = [
+	{
+		"name":"readType",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":com.qmino.miredot.restApiSource.enums["alluxio_client_ReadType"],
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"locationPolicyClass",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_OpenFileOptions_in"].ordered = false;
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_OpenFileOptions_in"].comment = null;
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_OpenFileOptions_out"].content = [
+	{
+		"name":"locationPolicyClass",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"readType",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":com.qmino.miredot.restApiSource.enums["alluxio_client_ReadType"],
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_OpenFileOptions_out"].ordered = false;
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_OpenFileOptions_out"].comment = null;
+com.qmino.miredot.restApiSource.tos["javax_ws_rs_core_EntityTag_in"].content = [
+];
+com.qmino.miredot.restApiSource.tos["javax_ws_rs_core_EntityTag_in"].ordered = false;
+com.qmino.miredot.restApiSource.tos["javax_ws_rs_core_EntityTag_in"].comment = null;
+com.qmino.miredot.restApiSource.tos["javax_ws_rs_core_EntityTag_out"].content = [
+	{
+		"name":"weak",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"boolean",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"value",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["javax_ws_rs_core_EntityTag_out"].ordered = false;
+com.qmino.miredot.restApiSource.tos["javax_ws_rs_core_EntityTag_out"].comment = null;
+com.qmino.miredot.restApiSource.tos["alluxio_wire_WorkerInfo_in"].content = [
+	{
+		"name":"lastContactSec",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"capacityBytes",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"usedBytes",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"startTimeMs",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"id",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"address",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":com.qmino.miredot.restApiSource.tos["alluxio_wire_WorkerNetAddress_in"],
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"state",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["alluxio_wire_WorkerInfo_in"].ordered = false;
+com.qmino.miredot.restApiSource.tos["alluxio_wire_WorkerInfo_in"].comment = null;
+com.qmino.miredot.restApiSource.tos["alluxio_wire_WorkerInfo_out"].content = [
+	{
+		"name":"startTimeMs",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"capacityBytes",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"usedBytes",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"lastContactSec",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"address",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":com.qmino.miredot.restApiSource.tos["alluxio_wire_WorkerNetAddress_out"],
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"id",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"state",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["alluxio_wire_WorkerInfo_out"].ordered = false;
+com.qmino.miredot.restApiSource.tos["alluxio_wire_WorkerInfo_out"].comment = null;
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_CreateFileOptions_in"].content = [
+	{
+		"name":"mode",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":com.qmino.miredot.restApiSource.tos["alluxio_security_authorization_Mode_in"],
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"blockSizeBytes",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"ttl",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"ttlAction",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":com.qmino.miredot.restApiSource.enums["alluxio_wire_TtlAction"],
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"locationPolicyClass",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"writeTier",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"writeType",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":com.qmino.miredot.restApiSource.enums["alluxio_client_WriteType"],
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"recursive",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"boolean",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_CreateFileOptions_in"].ordered = false;
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_CreateFileOptions_in"].comment = null;
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_CreateFileOptions_out"].content = [
+	{
+		"name":"mode",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":com.qmino.miredot.restApiSource.tos["alluxio_security_authorization_Mode_out"],
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"blockSizeBytes",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"ttl",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"ttlAction",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":com.qmino.miredot.restApiSource.enums["alluxio_wire_TtlAction"],
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"writeTier",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"locationPolicyClass",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"writeType",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":com.qmino.miredot.restApiSource.enums["alluxio_client_WriteType"],
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"recursive",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"boolean",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_CreateFileOptions_out"].ordered = false;
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_CreateFileOptions_out"].comment = null;
+com.qmino.miredot.restApiSource.tos["alluxio_wire_WorkerNetAddress_in"].content = [
+	{
+		"name":"webPort",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"rpcPort",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"dataPort",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"host",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["alluxio_wire_WorkerNetAddress_in"].ordered = false;
+com.qmino.miredot.restApiSource.tos["alluxio_wire_WorkerNetAddress_in"].comment = null;
+com.qmino.miredot.restApiSource.tos["alluxio_wire_WorkerNetAddress_out"].content = [
+	{
+		"name":"rpcPort",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"dataPort",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"webPort",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"host",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["alluxio_wire_WorkerNetAddress_out"].ordered = false;
+com.qmino.miredot.restApiSource.tos["alluxio_wire_WorkerNetAddress_out"].comment = null;
+com.qmino.miredot.restApiSource.tos["alluxio_wire_MountPointInfo_in"].content = [
+	{
+		"name":"shared",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"boolean",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"ufsInfo",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"ufsUri",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"ufsType",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"ufsCapacityBytes",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"ufsUsedBytes",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"properties",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"map",
+			"typeKey":{
+				"type":"simple",
+				"typeValue":"string",
+			},
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"string",
+			},
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"readOnly",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"boolean",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["alluxio_wire_MountPointInfo_in"].ordered = false;
+com.qmino.miredot.restApiSource.tos["alluxio_wire_MountPointInfo_in"].comment = null;
+com.qmino.miredot.restApiSource.tos["alluxio_wire_MountPointInfo_out"].content = [
+	{
+		"name":"readOnly",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"boolean",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"shared",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"boolean",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"ufsCapacityBytes",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"ufsUsedBytes",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"ufsUri",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"ufsType",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"properties",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"map",
+			"typeKey":{
+				"type":"simple",
+				"typeValue":"string",
+			},
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"string",
+			},
+		},
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["alluxio_wire_MountPointInfo_out"].ordered = false;
+com.qmino.miredot.restApiSource.tos["alluxio_wire_MountPointInfo_out"].comment = null;
+com.qmino.miredot.restApiSource.tos["javax_ws_rs_core_Response$StatusType_in"].content = [
+];
+com.qmino.miredot.restApiSource.tos["javax_ws_rs_core_Response$StatusType_in"].ordered = false;
+com.qmino.miredot.restApiSource.tos["javax_ws_rs_core_Response$StatusType_in"].comment = null;
+com.qmino.miredot.restApiSource.tos["javax_ws_rs_core_Response$StatusType_out"].content = [
+	{
+		"name":"statusCode",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"reasonPhrase",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"family",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":com.qmino.miredot.restApiSource.enums["javax_ws_rs_core_Response$Status$Family"],
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["javax_ws_rs_core_Response$StatusType_out"].ordered = false;
+com.qmino.miredot.restApiSource.tos["javax_ws_rs_core_Response$StatusType_out"].comment = null;
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_ListStatusOptions_in"].content = [
+	{
+		"name":"loadMetadataType",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":com.qmino.miredot.restApiSource.enums["alluxio_wire_LoadMetadataType"],
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_ListStatusOptions_in"].ordered = false;
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_ListStatusOptions_in"].comment = null;
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_ListStatusOptions_out"].content = [
+	{
+		"name":"loadMetadataType",
+		"comment":null,
+		"fullComment":null,
+		"typeValue":com.qmino.miredot.restApiSource.enums["alluxio_wire_LoadMetadataType"],
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_ListStatusOptions_out"].ordered = false;
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_ListStatusOptions_out"].comment = null;
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_ExistsOptions_in"].content = [
+];
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_ExistsOptions_in"].ordered = false;
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_ExistsOptions_in"].comment = null;
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_ExistsOptions_out"].content = [
+];
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_ExistsOptions_out"].ordered = false;
+com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_ExistsOptions_out"].comment = null;
+com.qmino.miredot.restApiSource.interfaces = [
+	{
+		"beschrijving":"<BR/><STRONG>See Also:</STRONG><BR/><UL> <LI><a href=\"#599808661\" target=\"_self\">GET /worker/info</a></LI> </UL>",
+		"url":"/worker/uptime_ms",
+		"http":"GET",
+		"title":"get the uptime of the worker in milliseconds",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"number",
+			},
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"62610975",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"<BR/><STRONG>See Also:</STRONG><BR/><UL> <LI><a href=\"#1036988253\" target=\"_self\">GET /master/info</a></LI> </UL>",
+		"url":"/master/rpc_address",
+		"http":"GET",
+		"title":"get the master rpc address",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"string",
+			},
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"-2044718920",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"",
+		"url":"/worker/block/service_version",
+		"http":"GET",
+		"title":"get the service version",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"number",
+			},
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"-695716537",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"",
+		"url":"/worker/block/cancel_block",
+		"http":"POST",
+		"title":"cancel a block",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":412,
+				"comment":"Invalid JSON/XML input.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"-140724031",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+				{
+					"name":"sessionId",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"number",
+					},
+					"comment":"the session id",
+					"jaxrs":"QUERY",
+				},
+				{
+					"name":"blockId",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"number",
+					},
+					"comment":"the block id",
+					"jaxrs":"QUERY",
+				},
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"",
+		"url":"/master/block/block_info",
+		"http":"GET",
+		"title":"get the block descriptor for a block",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":com.qmino.miredot.restApiSource.tos["alluxio_wire_BlockInfo_out"],
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"2093056975",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+				{
+					"name":"blockId",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"number",
+					},
+					"comment":"the block id",
+					"jaxrs":"QUERY",
+				},
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"",
+		"url":"/worker/block/access_block",
+		"http":"POST",
+		"title":"access a block",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":412,
+				"comment":"Invalid JSON/XML input.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"-1351496313",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+				{
+					"name":"blockId",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"number",
+					},
+					"comment":"the block id",
+					"jaxrs":"QUERY",
+				},
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"<BR/><STRONG>See Also:</STRONG><BR/><UL> <LI><a href=\"#1036988253\" target=\"_self\">GET /master/info</a></LI> </UL>",
+		"url":"/master/used_bytes",
+		"http":"GET",
+		"title":"get the used capacity",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"number",
+			},
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"-146034907",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"",
+		"url":"/master/lineage/create_lineage",
+		"http":"POST",
+		"title":"create a lineage",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"number",
+			},
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":412,
+				"comment":"Invalid JSON/XML input.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"736425197",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+				{
+					"name":"inputFiles",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"string",
+					},
+					"comment":"a colon-separated list of the lineage input files",
+					"jaxrs":"QUERY",
+				},
+				{
+					"name":"outputFiles",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"string",
+					},
+					"comment":"a colon-separated list of the lineage output files",
+					"jaxrs":"QUERY",
+				},
+				{
+					"name":"command",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"string",
+					},
+					"comment":"the job command",
+					"jaxrs":"QUERY",
+				},
+				{
+					"name":"commandOutputFile",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"string",
+					},
+					"comment":"the job output file",
+					"jaxrs":"QUERY",
+				},
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"",
+		"url":"/paths/{path:.*}/mount",
+		"http":"POST",
+		"title":"mounts a UFS path",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":false,
+		"consumes":[
+			"application/json",
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":412,
+				"comment":"Invalid JSON/XML input.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"-1452749771",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+				{
+					"name":"path",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"string",
+					},
+					"comment":"the Alluxio path",
+					"jaxrs":"PATH",
+				},
+			],
+			"QUERY":[
+				{
+					"name":"src",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"string",
+					},
+					"comment":"the UFS source to mount",
+					"jaxrs":"QUERY",
+				},
+			],
+			"BODY":[
+				{
+					"typeValue":com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_MountOptions_in"],
+					"comment":"method options",
+					"jaxrs":"BODY",
+				},
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"<BR/><STRONG>See Also:</STRONG><BR/><UL> <LI><a href=\"#599808661\" target=\"_self\">GET /worker/info</a></LI> </UL>",
+		"url":"/worker/used_bytes_on_tiers",
+		"http":"GET",
+		"title":"get the mapping from tier alias to the used bytes of the tier, the keys are in the order from tier aliases with smaller ordinals to those with larger ones.",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":{
+				"type":"map",
+				"typeKey":{
+					"type":"simple",
+					"typeValue":"string",
+				},
+				"typeValue":{
+					"type":"simple",
+					"typeValue":"number",
+				},
+			},
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"-2030176491",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"",
+		"url":"/master/file/service_name",
+		"http":"GET",
+		"title":"get the service name",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"string",
+			},
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"-648608619",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"<BR/><STRONG>See Also:</STRONG><BR/><UL> <LI><a href=\"#599808661\" target=\"_self\">GET /worker/info</a></LI> </UL>",
+		"url":"/worker/directory_paths_on_tiers",
+		"http":"GET",
+		"title":"get the mapping from tier alias to the paths of the directories in the tier",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":{
+				"type":"map",
+				"typeKey":{
+					"type":"simple",
+					"typeValue":"string",
+				},
+				"typeValue":{
+					"type":"collection",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"string",
+					},
+				},
+			},
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"1810781088",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"",
+		"url":"/paths/{path:.*}/exists",
+		"http":"POST",
+		"title":"checks whether a path exists",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":false,
+		"consumes":[
+			"application/json",
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"boolean",
+			},
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":412,
+				"comment":"Invalid JSON/XML input.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"-1628245618",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+				{
+					"name":"path",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"string",
+					},
+					"comment":"the Alluxio path",
+					"jaxrs":"PATH",
+				},
+			],
+			"QUERY":[
+			],
+			"BODY":[
+				{
+					"typeValue":com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_ExistsOptions_in"],
+					"comment":"method options",
+					"jaxrs":"BODY",
+				},
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"",
+		"url":"/master/info",
+		"http":"GET",
+		"title":"get the Alluxio master information",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":false,
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":com.qmino.miredot.restApiSource.tos["javax_ws_rs_core_Response_out"],
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"1036988253",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+				{
+					"name":"raw_configuration",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"boolean",
+					},
+					"comment":"if it's true, raw configuration values are returned, otherwise, they are looked up; if it's not provided in URL queries, then it is null, which means false.",
+					"jaxrs":"QUERY",
+				},
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"<BR/><STRONG>See Also:</STRONG><BR/><UL> <LI><a href=\"#1036988253\" target=\"_self\">GET /master/info</a></LI> </UL>",
+		"url":"/master/uptime_ms",
+		"http":"GET",
+		"title":"get the uptime of the master",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"number",
+			},
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"-984980393",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"",
+		"url":"/master/file/status",
+		"http":"GET",
+		"title":"get a file descriptor for a path",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":com.qmino.miredot.restApiSource.tos["alluxio_wire_FileInfo_out"],
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"-1199014526",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+				{
+					"name":"path",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"string",
+					},
+					"comment":"the file path",
+					"jaxrs":"QUERY",
+				},
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"",
+		"url":"/paths/{path:.*}/set-attribute",
+		"http":"POST",
+		"title":"sets an attribute",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":false,
+		"consumes":[
+			"application/json",
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":412,
+				"comment":"Invalid JSON/XML input.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"162148434",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+				{
+					"name":"path",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"string",
+					},
+					"comment":"the Alluxio path",
+					"jaxrs":"PATH",
+				},
+			],
+			"QUERY":[
+			],
+			"BODY":[
+				{
+					"typeValue":com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_SetAttributeOptions_in"],
+					"comment":"method options",
+					"jaxrs":"BODY",
+				},
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"<BR/><STRONG>See Also:</STRONG><BR/><UL> <LI><a href=\"#599808661\" target=\"_self\">GET /worker/info</a></LI> </UL>",
+		"url":"/worker/capacity_bytes_on_tiers",
+		"http":"GET",
+		"title":"get the mapping from tier alias to the total capacity of the tier in bytes, the keys are in the order from tier aliases with smaller ordinals to those with larger ones.",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":{
+				"type":"map",
+				"typeKey":{
+					"type":"simple",
+					"typeValue":"string",
+				},
+				"typeValue":{
+					"type":"simple",
+					"typeValue":"number",
+				},
+			},
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"889547794",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"<BR/><STRONG>See Also:</STRONG><BR/><UL> <LI><a href=\"#1036988253\" target=\"_self\">GET /master/info</a></LI> </UL>",
+		"url":"/master/capacity_bytes",
+		"http":"GET",
+		"title":"get the total capacity of all workers in bytes",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"number",
+			},
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"-175142712",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"<BR/><STRONG>See Also:</STRONG><BR/><UL> <LI><a href=\"#599808661\" target=\"_self\">GET /worker/info</a></LI> </UL>",
+		"url":"/worker/metrics",
+		"http":"GET",
+		"title":"get the worker metrics",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":{
+				"type":"map",
+				"typeKey":{
+					"type":"simple",
+					"typeValue":"string",
+				},
+				"typeValue":{
+					"type":"simple",
+					"typeValue":"number",
+				},
+			},
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"-69657550",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"",
+		"url":"/paths/{path:.*}/rename",
+		"http":"POST",
+		"title":"renames a path",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":false,
+		"consumes":[
+			"application/json",
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":412,
+				"comment":"Invalid JSON/XML input.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"1766100613",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+				{
+					"name":"path",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"string",
+					},
+					"comment":"the Alluxio path",
+					"jaxrs":"PATH",
+				},
+			],
+			"QUERY":[
+				{
+					"name":"dst",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"string",
+					},
+					"comment":"the destination path",
+					"jaxrs":"QUERY",
+				},
+			],
+			"BODY":[
+				{
+					"typeValue":com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_RenameOptions_in"],
+					"comment":"method options",
+					"jaxrs":"BODY",
+				},
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"<BR/><STRONG>See Also:</STRONG><BR/><UL> <LI><a href=\"#599808661\" target=\"_self\">GET /worker/info</a></LI> </UL>",
+		"url":"/worker/used_bytes",
+		"http":"GET",
+		"title":"get the used bytes of the worker",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"number",
+			},
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"-2030440867",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"<BR/><STRONG>See Also:</STRONG><BR/><UL> <LI><a href=\"#1036988253\" target=\"_self\">GET /master/info</a></LI> </UL>",
+		"url":"/master/configuration",
+		"http":"GET",
+		"title":"get the configuration map, the keys are ordered alphabetically.",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":{
+				"type":"map",
+				"typeKey":{
+					"type":"simple",
+					"typeValue":"string",
+				},
+				"typeValue":{
+					"type":"simple",
+					"typeValue":"string",
+				},
+			},
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"-781492755",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"<BR/><STRONG>See Also:</STRONG><BR/><UL> <LI><a href=\"#1036988253\" target=\"_self\">GET /master/info</a></LI> </UL>",
+		"url":"/master/ufs_used_bytes",
+		"http":"GET",
+		"title":"get the used disk capacity, a negative value means the capacity is unknown.",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"number",
+			},
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"-809628427",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"",
+		"url":"/paths/{path:.*}/create-directory",
+		"http":"POST",
+		"title":"creates a directory",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":false,
+		"consumes":[
+			"application/json",
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":412,
+				"comment":"Invalid JSON/XML input.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"247811152",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+				{
+					"name":"path",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"string",
+					},
+					"comment":"the Alluxio path",
+					"jaxrs":"PATH",
+				},
+			],
+			"QUERY":[
+			],
+			"BODY":[
+				{
+					"typeValue":com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_CreateDirectoryOptions_in"],
+					"comment":"method options",
+					"jaxrs":"BODY",
+				},
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"",
+		"url":"/master/file/unmount",
+		"http":"POST",
+		"title":"unmount a path",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"boolean",
+			},
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":412,
+				"comment":"Invalid JSON/XML input.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"-2071983878",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+				{
+					"name":"path",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"string",
+					},
+					"comment":"the file path",
+					"jaxrs":"QUERY",
+				},
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"",
+		"url":"/paths/{path:.*}/get-status",
+		"http":"POST",
+		"title":"gets path status",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":false,
+		"consumes":[
+			"application/json",
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":com.qmino.miredot.restApiSource.tos["alluxio_client_file_URIStatus_out"],
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":412,
+				"comment":"Invalid JSON/XML input.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"1898843248",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+				{
+					"name":"path",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"string",
+					},
+					"comment":"the Alluxio path",
+					"jaxrs":"PATH",
+				},
+			],
+			"QUERY":[
+			],
+			"BODY":[
+				{
+					"typeValue":com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_GetStatusOptions_in"],
+					"comment":"method options",
+					"jaxrs":"BODY",
+				},
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"",
+		"url":"/worker/block/write_block",
+		"http":"POST",
+		"title":"write a block",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+			"application/octet-stream",
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":412,
+				"comment":"Invalid JSON/XML input.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"-59651734",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+				{
+					"name":"sessionId",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"number",
+					},
+					"comment":"the session id",
+					"jaxrs":"QUERY",
+				},
+				{
+					"name":"blockId",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"number",
+					},
+					"comment":"the block id",
+					"jaxrs":"QUERY",
+				},
+				{
+					"name":"offset",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"number",
+					},
+					"comment":"the offset to start the read at",
+					"jaxrs":"QUERY",
+				},
+				{
+					"name":"length",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"number",
+					},
+					"comment":"the number of bytes to read (the value -1 means read until EOF)",
+					"jaxrs":"QUERY",
+				},
+			],
+			"BODY":[
+				{
+					"typeValue":{
+						"type":"collection",
+						"typeValue":{
+							"type":"simple",
+							"typeValue":"byte",
+						},
+					},
+					"comment":"the data to write",
+					"jaxrs":"BODY",
+				},
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"",
+		"url":"/worker/block/service_name",
+		"http":"GET",
+		"title":"get the service name",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"string",
+			},
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"1156698236",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"",
+		"url":"/paths/{path:.*}/create-file",
+		"http":"POST",
+		"title":"creates a file",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":false,
+		"consumes":[
+			"application/json",
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"number",
+			},
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":412,
+				"comment":"Invalid JSON/XML input.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"427231382",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+				{
+					"name":"path",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"string",
+					},
+					"comment":"the Alluxio path",
+					"jaxrs":"PATH",
+				},
+			],
+			"QUERY":[
+			],
+			"BODY":[
+				{
+					"typeValue":com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_CreateFileOptions_in"],
+					"comment":"method options",
+					"jaxrs":"BODY",
+				},
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"",
+		"url":"/master/file/mount_points",
+		"http":"GET",
+		"title":"get the map from alluxio paths of mount points to the mount point details",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":{
+				"type":"map",
+				"typeKey":{
+					"type":"simple",
+					"typeValue":"string",
+				},
+				"typeValue":com.qmino.miredot.restApiSource.tos["alluxio_wire_MountPointInfo_out"],
+			},
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"-1968242671",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"<BR/><STRONG>See Also:</STRONG><BR/><UL> <LI><a href=\"#1036988253\" target=\"_self\">GET /master/info</a></LI> </UL>",
+		"url":"/master/metrics",
+		"http":"GET",
+		"title":"get the master metrics, the keys are ordered alphabetically.",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":{
+				"type":"map",
+				"typeKey":{
+					"type":"simple",
+					"typeValue":"string",
+				},
+				"typeValue":{
+					"type":"simple",
+					"typeValue":"number",
+				},
+			},
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"1974759162",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"",
+		"url":"/worker/info",
+		"http":"GET",
+		"title":"get the Alluxio master information",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":false,
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":com.qmino.miredot.restApiSource.tos["javax_ws_rs_core_Response_out"],
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"599808661",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+				{
+					"name":"raw_configuration",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"boolean",
+					},
+					"comment":"if it's true, raw configuration values are returned, otherwise, they are looked up; if it's not provided in URL queries, then it is null, which means false.",
+					"jaxrs":"QUERY",
+				},
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"",
+		"url":"/paths/{path:.*}/delete",
+		"http":"POST",
+		"title":"deletes a path",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":false,
+		"consumes":[
+			"application/json",
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":412,
+				"comment":"Invalid JSON/XML input.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"-539484560",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+				{
+					"name":"path",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"string",
+					},
+					"comment":"the Alluxio path",
+					"jaxrs":"PATH",
+				},
+			],
+			"QUERY":[
+			],
+			"BODY":[
+				{
+					"typeValue":com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_DeleteOptions_in"],
+					"comment":"method options",
+					"jaxrs":"BODY",
+				},
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"",
+		"url":"/master/file/set_attribute",
+		"http":"POST",
+		"title":"set an attribute",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":412,
+				"comment":"Invalid JSON/XML input.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"186952850",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+				{
+					"name":"path",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"string",
+					},
+					"comment":"the file path",
+					"jaxrs":"QUERY",
+				},
+				{
+					"name":"pinned",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"boolean",
+					},
+					"comment":"the pinned flag value to use",
+					"jaxrs":"QUERY",
+				},
+				{
+					"name":"ttl",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"number",
+					},
+					"comment":"the time-to-live (in seconds) to use",
+					"jaxrs":"QUERY",
+				},
+				{
+					"name":"persisted",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"boolean",
+					},
+					"comment":"the persisted flag value to use",
+					"jaxrs":"QUERY",
+				},
+				{
+					"name":"owner",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"string",
+					},
+					"comment":"the file owner",
+					"jaxrs":"QUERY",
+				},
+				{
+					"name":"group",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"string",
+					},
+					"comment":"the file group",
+					"jaxrs":"QUERY",
+				},
+				{
+					"name":"permission",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"number",
+					},
+					"comment":"the file permission bits",
+					"jaxrs":"QUERY",
+				},
+				{
+					"name":"recursive",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"boolean",
+					},
+					"comment":"whether the attribute should be set recursively",
+					"jaxrs":"QUERY",
+				},
+				{
+					"name":"ttxAction",
+					"typeValue":com.qmino.miredot.restApiSource.enums["alluxio_wire_TtlAction"],
+					"comment":"action to take after TTL is expired",
+					"jaxrs":"QUERY",
+				},
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"",
+		"url":"/streams/{id}/close",
+		"http":"POST",
+		"title":"closes a stream",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":false,
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":412,
+				"comment":"Invalid JSON/XML input.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"-1738901206",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+				{
+					"name":"id",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"number",
+					},
+					"comment":"the stream id",
+					"jaxrs":"PATH",
+				},
+			],
+			"QUERY":[
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"",
+		"url":"/paths/{path:.*}/list-status",
+		"http":"POST",
+		"title":"lists path statuses",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":false,
+		"consumes":[
+			"application/json",
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":{
+				"type":"collection",
+				"typeValue":com.qmino.miredot.restApiSource.tos["alluxio_client_file_URIStatus_out"],
+			},
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":412,
+				"comment":"Invalid JSON/XML input.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"1098874214",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+				{
+					"name":"path",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"string",
+					},
+					"comment":"the Alluxio path",
+					"jaxrs":"PATH",
+				},
+			],
+			"QUERY":[
+			],
+			"BODY":[
+				{
+					"typeValue":com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_ListStatusOptions_in"],
+					"comment":"method options",
+					"jaxrs":"BODY",
+				},
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"",
+		"url":"/master/file/create_file",
+		"http":"POST",
+		"title":"create a file",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":412,
+				"comment":"Invalid JSON/XML input.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"-1035040102",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+				{
+					"name":"path",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"string",
+					},
+					"comment":"the file path",
+					"jaxrs":"QUERY",
+				},
+				{
+					"name":"persisted",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"boolean",
+					},
+					"comment":"whether directory should be persisted",
+					"jaxrs":"QUERY",
+				},
+				{
+					"name":"recursive",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"boolean",
+					},
+					"comment":"whether parent directories should be created if they do not already exist",
+					"jaxrs":"QUERY",
+				},
+				{
+					"name":"blockSizeBytes",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"number",
+					},
+					"comment":"the target block size in bytes",
+					"jaxrs":"QUERY",
+				},
+				{
+					"name":"ttl",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"number",
+					},
+					"comment":"the time-to-live (in milliseconds)",
+					"jaxrs":"QUERY",
+				},
+				{
+					"name":"ttlAction",
+					"typeValue":com.qmino.miredot.restApiSource.enums["alluxio_wire_TtlAction"],
+					"comment":"action to take after TTL is expired",
+					"jaxrs":"QUERY",
+				},
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"",
+		"url":"/master/lineage/service_name",
+		"http":"GET",
+		"title":"get the service name",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"string",
+			},
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"-1064165504",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"",
+		"url":"/master/file/free",
+		"http":"POST",
+		"title":"free a path",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":412,
+				"comment":"Invalid JSON/XML input.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"-922057428",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+				{
+					"name":"path",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"string",
+					},
+					"comment":"the path",
+					"jaxrs":"QUERY",
+				},
+				{
+					"name":"recursive",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"boolean",
+					},
+					"comment":"whether the path should be freed recursively",
+					"jaxrs":"QUERY",
+				},
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"<BR/><STRONG>See Also:</STRONG><BR/><UL> <LI><a href=\"#599808661\" target=\"_self\">GET /worker/info</a></LI> </UL>",
+		"url":"/worker/configuration",
+		"http":"GET",
+		"title":"get the configuration map, the keys are ordered alphabetically.",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":{
+				"type":"map",
+				"typeKey":{
+					"type":"simple",
+					"typeValue":"string",
+				},
+				"typeValue":{
+					"type":"simple",
+					"typeValue":"string",
+				},
+			},
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"1425490213",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"<BR/><STRONG>See Also:</STRONG><BR/><UL> <LI><a href=\"#1036988253\" target=\"_self\">GET /master/info</a></LI> </UL>",
+		"url":"/master/worker_info_list",
+		"http":"GET",
+		"title":"get the list of worker descriptors",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":{
+				"type":"collection",
+				"typeValue":com.qmino.miredot.restApiSource.tos["alluxio_wire_WorkerInfo_out"],
+			},
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"-263908877",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"",
+		"url":"/master/file/create_directory",
+		"http":"POST",
+		"title":"create a directory",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":412,
+				"comment":"Invalid JSON/XML input.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"-1568692663",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+				{
+					"name":"path",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"string",
+					},
+					"comment":"the file path",
+					"jaxrs":"QUERY",
+				},
+				{
+					"name":"persisted",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"boolean",
+					},
+					"comment":"whether directory should be persisted",
+					"jaxrs":"QUERY",
+				},
+				{
+					"name":"recursive",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"boolean",
+					},
+					"comment":"whether parent directories should be created if they do not already exist",
+					"jaxrs":"QUERY",
+				},
+				{
+					"name":"allowExists",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"boolean",
+					},
+					"comment":"whether the operation should succeed even if the directory already exists",
+					"jaxrs":"QUERY",
+				},
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"",
+		"url":"/worker/block/promote_block",
+		"http":"POST",
+		"title":"promote a block",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":412,
+				"comment":"Invalid JSON/XML input.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"1307793295",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+				{
+					"name":"blockId",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"number",
+					},
+					"comment":"the block id",
+					"jaxrs":"QUERY",
+				},
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"",
+		"url":"/streams/{id}/write",
+		"http":"POST",
+		"title":"writes to a stream",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":false,
+		"consumes":[
+			"application/octet-stream",
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"number",
+			},
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":412,
+				"comment":"Invalid JSON/XML input.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"679182667",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+				{
+					"name":"id",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"number",
+					},
+					"comment":"the stream id",
+					"jaxrs":"PATH",
+				},
+			],
+			"QUERY":[
+			],
+			"BODY":[
+				{
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"java.io.InputStream",
+					},
+					"comment":"the input stream",
+					"jaxrs":"BODY",
+				},
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"",
+		"url":"/master/lineage/reinitialize_file",
+		"http":"POST",
+		"title":"reinitialize a file",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"number",
+			},
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":412,
+				"comment":"Invalid JSON/XML input.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"-676279064",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+				{
+					"name":"path",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"string",
+					},
+					"comment":"the file path",
+					"jaxrs":"QUERY",
+				},
+				{
+					"name":"blockSizeBytes",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"number",
+					},
+					"comment":"the file block size (in bytes)",
+					"jaxrs":"QUERY",
+				},
+				{
+					"name":"ttl",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"number",
+					},
+					"comment":"the file time-to-live (in seconds)",
+					"jaxrs":"QUERY",
+				},
+				{
+					"name":"ttlAction",
+					"typeValue":com.qmino.miredot.restApiSource.enums["alluxio_wire_TtlAction"],
+					"comment":"action to take after TTL is expired",
+					"jaxrs":"QUERY",
+				},
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"",
+		"url":"/master/file/rename",
+		"http":"POST",
+		"title":"move a path",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":412,
+				"comment":"Invalid JSON/XML input.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"1492179955",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+				{
+					"name":"srcPath",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"string",
+					},
+					"comment":"the source path",
+					"jaxrs":"QUERY",
+				},
+				{
+					"name":"dstPath",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"string",
+					},
+					"comment":"the destination path",
+					"jaxrs":"QUERY",
+				},
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"<BR/><STRONG>See Also:</STRONG><BR/><UL> <LI><a href=\"#1036988253\" target=\"_self\">GET /master/info</a></LI> </UL>",
+		"url":"/master/ufs_capacity_bytes",
+		"http":"GET",
+		"title":"get the total ufs capacity in bytes, a negative value means the capacity is unknown.",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"number",
+			},
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"1862172312",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"<BR/><STRONG>See Also:</STRONG><BR/><UL> <LI><a href=\"#1036988253\" target=\"_self\">GET /master/info</a></LI> </UL>",
+		"url":"/master/ufs_free_bytes",
+		"http":"GET",
+		"title":"get the free ufs capacity in bytes, a negative value means the capacity is unknown.",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"number",
+			},
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"-1181796442",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"",
+		"url":"/worker/block/read_block",
+		"http":"GET",
+		"title":"read a block",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/octet-stream",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":{
+				"type":"collection",
+				"typeValue":{
+					"type":"simple",
+					"typeValue":"byte",
+				},
+			},
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"2063427541",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+				{
+					"name":"sessionId",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"number",
+					},
+					"comment":"the session id",
+					"jaxrs":"QUERY",
+				},
+				{
+					"name":"blockId",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"number",
+					},
+					"comment":"the block id",
+					"jaxrs":"QUERY",
+				},
+				{
+					"name":"lockId",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"number",
+					},
+					"comment":"the lock id",
+					"jaxrs":"QUERY",
+				},
+				{
+					"name":"offset",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"number",
+					},
+					"comment":"the offset to start the read at",
+					"jaxrs":"QUERY",
+				},
+				{
+					"name":"length",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"number",
+					},
+					"comment":"the number of bytes to read (the value -1 means read until EOF)",
+					"jaxrs":"QUERY",
+				},
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"",
+		"url":"/streams/{id}/read",
+		"http":"POST",
+		"title":"reads from a stream",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":false,
+		"consumes":[
+		],
+		"produces":[
+			"application/octet-stream",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"java.io.InputStream",
+			},
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":412,
+				"comment":"Invalid JSON/XML input.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"-624144164",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+				{
+					"name":"id",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"number",
+					},
+					"comment":"the stream id",
+					"jaxrs":"PATH",
+				},
+			],
+			"QUERY":[
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"",
+		"url":"/worker/block/unlock_block",
+		"http":"POST",
+		"title":"unlock a block",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":412,
+				"comment":"Invalid JSON/XML input.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"1270204727",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+				{
+					"name":"sessionId",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"number",
+					},
+					"comment":"the session id",
+					"jaxrs":"QUERY",
+				},
+				{
+					"name":"blockId",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"number",
+					},
+					"comment":"the block id",
+					"jaxrs":"QUERY",
+				},
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"",
+		"url":"/master/lineage/service_version",
+		"http":"GET",
+		"title":"get the service version",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"number",
+			},
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"1523800003",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"<BR/><STRONG>See Also:</STRONG><BR/><UL> <LI><a href=\"#599808661\" target=\"_self\">GET /worker/info</a></LI> </UL>",
+		"url":"/worker/start_time_ms",
+		"http":"GET",
+		"title":"get the start time of the worker in milliseconds",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"number",
+			},
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"-315406268",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"",
+		"url":"/paths/{path:.*}/free",
+		"http":"POST",
+		"title":"frees a path",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":false,
+		"consumes":[
+			"application/json",
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":412,
+				"comment":"Invalid JSON/XML input.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"364786606",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+				{
+					"name":"path",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"string",
+					},
+					"comment":"the Alluxio path",
+					"jaxrs":"PATH",
+				},
+			],
+			"QUERY":[
+			],
+			"BODY":[
+				{
+					"typeValue":com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_FreeOptions_in"],
+					"comment":"method options",
+					"jaxrs":"BODY",
+				},
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"<BR/><STRONG>See Also:</STRONG><BR/><UL> <LI><a href=\"#1036988253\" target=\"_self\">GET /master/info</a></LI> </UL>",
+		"url":"/master/capacity_bytes_on_tiers",
+		"http":"GET",
+		"title":"get the mapping from tier alias to total capacity of the tier in bytes, keys are in the order from tier alias with smaller ordinal to those with larger ones.",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":{
+				"type":"map",
+				"typeKey":{
+					"type":"simple",
+					"typeValue":"string",
+				},
+				"typeValue":{
+					"type":"simple",
+					"typeValue":"number",
+				},
+			},
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"1457839690",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"<BR/><STRONG>See Also:</STRONG><BR/><UL> <LI><a href=\"#1036988253\" target=\"_self\">GET /master/info</a></LI> </UL>",
+		"url":"/master/worker_count",
+		"http":"GET",
+		"title":"get the count of workers",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"number",
+			},
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"926697192",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"",
+		"url":"/paths/{path:.*}/open-file",
+		"http":"POST",
+		"title":"opens a file",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":false,
+		"consumes":[
+			"application/json",
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"number",
+			},
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":412,
+				"comment":"Invalid JSON/XML input.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"-722554438",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+				{
+					"name":"path",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"string",
+					},
+					"comment":"the Alluxio path",
+					"jaxrs":"PATH",
+				},
+			],
+			"QUERY":[
+			],
+			"BODY":[
+				{
+					"typeValue":com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_OpenFileOptions_in"],
+					"comment":"method options",
+					"jaxrs":"BODY",
+				},
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"",
+		"url":"/worker/block/request_space",
+		"http":"POST",
+		"title":"request additional space for a block",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":412,
+				"comment":"Invalid JSON/XML input.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"1025595705",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+				{
+					"name":"sessionId",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"number",
+					},
+					"comment":"the session id",
+					"jaxrs":"QUERY",
+				},
+				{
+					"name":"blockId",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"number",
+					},
+					"comment":"the block id",
+					"jaxrs":"QUERY",
+				},
+				{
+					"name":"requestBytes",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"number",
+					},
+					"comment":"the additional number of bytes to allocate",
+					"jaxrs":"QUERY",
+				},
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"",
+		"url":"/master/block/service_name",
+		"http":"GET",
+		"title":"get the service name",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"string",
+			},
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"-1229899964",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"",
+		"url":"/master/file/service_version",
+		"http":"GET",
+		"title":"get the service version",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"number",
+			},
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"-1011753330",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"",
+		"url":"/worker/block/lock_block",
+		"http":"POST",
+		"title":"lock a block",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":com.qmino.miredot.restApiSource.tos["alluxio_wire_LockBlockResult_out"],
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":412,
+				"comment":"Invalid JSON/XML input.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"1319174064",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+				{
+					"name":"sessionId",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"number",
+					},
+					"comment":"the session id",
+					"jaxrs":"QUERY",
+				},
+				{
+					"name":"blockId",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"number",
+					},
+					"comment":"the block id",
+					"jaxrs":"QUERY",
+				},
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"",
+		"url":"/master/file/schedule_async_persist",
+		"http":"POST",
+		"title":"schedule asynchronous persistence",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":412,
+				"comment":"Invalid JSON/XML input.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"1183684863",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+				{
+					"name":"path",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"string",
+					},
+					"comment":"the file path",
+					"jaxrs":"QUERY",
+				},
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"<BR/><STRONG>See Also:</STRONG><BR/><UL> <LI><a href=\"#1036988253\" target=\"_self\">GET /master/info</a></LI> </UL>",
+		"url":"/master/version",
+		"http":"GET",
+		"title":"get the version of the master",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"string",
+			},
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"1370540815",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"",
+		"url":"/master/file/remove",
+		"http":"POST",
+		"title":"remove a path",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":412,
+				"comment":"Invalid JSON/XML input.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"2074599124",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+				{
+					"name":"path",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"string",
+					},
+					"comment":"the path to remove",
+					"jaxrs":"QUERY",
+				},
+				{
+					"name":"recursive",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"boolean",
+					},
+					"comment":"whether to remove paths recursively",
+					"jaxrs":"QUERY",
+				},
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"<BR/><STRONG>See Also:</STRONG><BR/><UL> <LI><a href=\"#1036988253\" target=\"_self\">GET /master/info</a></LI> </UL>",
+		"url":"/master/free_bytes",
+		"http":"GET",
+		"title":"get the free capacity",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"number",
+			},
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"-518202922",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"",
+		"url":"/master/block/service_version",
+		"http":"GET",
+		"title":"get the service version",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"number",
+			},
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"-954074753",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"",
+		"url":"/master/lineage/report_lost_file",
+		"http":"POST",
+		"title":"report a lost file",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":412,
+				"comment":"Invalid JSON/XML input.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"704441423",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+				{
+					"name":"path",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"string",
+					},
+					"comment":"the file path",
+					"jaxrs":"QUERY",
+				},
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"",
+		"url":"/master/lineage/delete_lineage",
+		"http":"POST",
+		"title":"delete a lineage",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"boolean",
+			},
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":412,
+				"comment":"Invalid JSON/XML input.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"-548201778",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+				{
+					"name":"lineageId",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"number",
+					},
+					"comment":"the lineage id",
+					"jaxrs":"QUERY",
+				},
+				{
+					"name":"cascade",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"boolean",
+					},
+					"comment":"whether to delete lineage recursively",
+					"jaxrs":"QUERY",
+				},
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"<BR/><STRONG>See Also:</STRONG><BR/><UL> <LI><a href=\"#599808661\" target=\"_self\">GET /worker/info</a></LI> </UL>",
+		"url":"/worker/rpc_address",
+		"http":"GET",
+		"title":"get the address of the worker",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"string",
+			},
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"-331761536",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"",
+		"url":"/master/file/mount",
+		"http":"POST",
+		"title":"mount a UFS path",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":412,
+				"comment":"Invalid JSON/XML input.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"-2025626600",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+				{
+					"name":"path",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"string",
+					},
+					"comment":"the alluxio mount point",
+					"jaxrs":"QUERY",
+				},
+				{
+					"name":"ufsPath",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"string",
+					},
+					"comment":"the UFS path to mount",
+					"jaxrs":"QUERY",
+				},
+				{
+					"name":"readOnly",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"boolean",
+					},
+					"comment":"whether to make the mount option read only",
+					"jaxrs":"QUERY",
+				},
+				{
+					"name":"shared",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"boolean",
+					},
+					"comment":"whether to make the mount option shared with all Alluxio users",
+					"jaxrs":"QUERY",
+				},
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"",
+		"url":"/master/file/complete_file",
+		"http":"POST",
+		"title":"complete a file",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":412,
+				"comment":"Invalid JSON/XML input.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"-1975565451",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+				{
+					"name":"path",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"string",
+					},
+					"comment":"the file path",
+					"jaxrs":"QUERY",
+				},
+				{
+					"name":"ufsLength",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"number",
+					},
+					"comment":"the length of the file in under file system",
+					"jaxrs":"QUERY",
+				},
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"<BR/><STRONG>See Also:</STRONG><BR/><UL> <LI><a href=\"#599808661\" target=\"_self\">GET /worker/info</a></LI> </UL>",
+		"url":"/worker/capacity_bytes",
+		"http":"GET",
+		"title":"get the total capacity of the worker in bytes",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"number",
+			},
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"2031840256",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"",
+		"url":"/master/file/list_status",
+		"http":"GET",
+		"title":"get the file descriptors for a path",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":{
+				"type":"collection",
+				"typeValue":com.qmino.miredot.restApiSource.tos["alluxio_wire_FileInfo_out"],
+			},
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"-801358963",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+				{
+					"name":"path",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"string",
+					},
+					"comment":"the file path",
+					"jaxrs":"QUERY",
+				},
+				{
+					"name":"loadDirectChildren",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"boolean",
+					},
+					"comment":"whether to load direct children of path",
+					"jaxrs":"QUERY",
+				},
+				{
+					"name":"loadMetadataType",
+					"defaultValue":"",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"string",
+					},
+					"comment":"the <code>LoadMetadataType</code>. It overrides loadDirectChildren if it is set.",
+					"jaxrs":"QUERY",
+				},
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"<BR/><STRONG>See Also:</STRONG><BR/><UL> <LI><a href=\"#1036988253\" target=\"_self\">GET /master/info</a></LI> </UL>",
+		"url":"/master/used_bytes_on_tiers",
+		"http":"GET",
+		"title":"get the mapping from tier alias to the used bytes of the tier, keys are in the order from tier alias with smaller ordinal to those with larger ones.",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":{
+				"type":"map",
+				"typeKey":{
+					"type":"simple",
+					"typeValue":"string",
+				},
+				"typeValue":{
+					"type":"simple",
+					"typeValue":"number",
+				},
+			},
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"1394558285",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"",
+		"url":"/worker/block/cache_block",
+		"http":"POST",
+		"title":"cache a block",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":412,
+				"comment":"Invalid JSON/XML input.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"1817518109",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+				{
+					"name":"sessionId",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"number",
+					},
+					"comment":"the session id",
+					"jaxrs":"QUERY",
+				},
+				{
+					"name":"blockId",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"number",
+					},
+					"comment":"the block id",
+					"jaxrs":"QUERY",
+				},
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"",
+		"url":"/master/lineage/lineage_info_list",
+		"http":"GET",
+		"title":"get the list of lineage descriptors",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":{
+				"type":"collection",
+				"typeValue":com.qmino.miredot.restApiSource.tos["alluxio_wire_LineageInfo_out"],
+			},
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"-2145387337",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"<BR/><STRONG>See Also:</STRONG><BR/><UL> <LI><a href=\"#599808661\" target=\"_self\">GET /worker/info</a></LI> </UL>",
+		"url":"/worker/version",
+		"http":"GET",
+		"title":"get the version of the worker",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"string",
+			},
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"-673875897",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"",
+		"url":"/paths/{path:.*}/unmount",
+		"http":"POST",
+		"title":"unmounts a path",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":false,
+		"consumes":[
+			"application/json",
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":412,
+				"comment":"Invalid JSON/XML input.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"-714333904",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+				{
+					"name":"path",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"string",
+					},
+					"comment":"the Alluxio path",
+					"jaxrs":"PATH",
+				},
+			],
+			"QUERY":[
+			],
+			"BODY":[
+				{
+					"typeValue":com.qmino.miredot.restApiSource.tos["alluxio_client_file_options_UnmountOptions_in"],
+					"comment":"method options",
+					"jaxrs":"BODY",
+				},
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"<BR/><STRONG>See Also:</STRONG><BR/><UL> <LI><a href=\"#1036988253\" target=\"_self\">GET /master/info</a></LI> </UL>",
+		"url":"/master/start_time_ms",
+		"http":"GET",
+		"title":"get the start time of the master",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"number",
+			},
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"-1877477620",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"",
+		"url":"/worker/block/request_block_location",
+		"http":"POST",
+		"title":"request a block location",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"string",
+			},
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":412,
+				"comment":"Invalid JSON/XML input.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"2072882581",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+				{
+					"name":"sessionId",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"number",
+					},
+					"comment":"the session id",
+					"jaxrs":"QUERY",
+				},
+				{
+					"name":"blockId",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"number",
+					},
+					"comment":"the block id",
+					"jaxrs":"QUERY",
+				},
+				{
+					"name":"initialBytes",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"number",
+					},
+					"comment":"the initial number of bytes to allocate",
+					"jaxrs":"QUERY",
+				},
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"",
+		"url":"/master/file/new_block_id_for_file",
+		"http":"POST",
+		"title":"get a new block id for a file",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":true,
+		"deprecatedComment":"since version 1.4 and will be removed in version 2.0",
+		"consumes":[
+		],
+		"produces":[
+			"application/json",
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":{
+				"type":"simple",
+				"typeValue":"number",
+			},
+			"comment":"the response object",
+		},
+		"statusCodes":[
+			{
+				"httpCode":200,
+				"comment":"The service call has completed successfully.",
+			},
+			{
+				"httpCode":412,
+				"comment":"Invalid JSON/XML input.",
+			},
+			{
+				"httpCode":500,
+				"comment":"The service call has not succeeded.",
+			},
+		],
+		"hash":"-389529513",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+				{
+					"name":"path",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"string",
+					},
+					"comment":"the file path",
+					"jaxrs":"QUERY",
+				},
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+];
+com.qmino.miredot.projectWarnings = [
+];
+com.qmino.miredot.processErrors = [
+];
+var customHttpMethods = [
+];
+

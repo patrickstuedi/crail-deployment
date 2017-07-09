@@ -1,0 +1,8 @@
+alluxio/underfs/swift/SwiftUnderFileSystemFactory.class
+alluxio/underfs/swift/SwiftOutputStream.class
+alluxio/underfs/swift/SwiftUnderFileSystem$SwiftObjectListingChunk.class
+alluxio/underfs/swift/http/SwiftDirectClient.class
+alluxio/underfs/swift/SwiftUnderFileSystem.class
+alluxio/underfs/swift/SwiftInputStream.class
+alluxio/underfs/swift/SwiftMockOutputStream.class
+alluxio/underfs/swift/MidPartLongRange.class

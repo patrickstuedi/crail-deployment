@@ -1,0 +1,5 @@
+/home/ec2-user/alluxio-1.4.0/underfs/s3/src/main/java/alluxio/underfs/s3/S3UnderFileSystem.java
+/home/ec2-user/alluxio-1.4.0/underfs/s3/src/main/java/alluxio/underfs/s3/S3InputStream.java
+/home/ec2-user/alluxio-1.4.0/underfs/s3/src/main/java/alluxio/underfs/s3/S3Utils.java
+/home/ec2-user/alluxio-1.4.0/underfs/s3/src/main/java/alluxio/underfs/s3/S3UnderFileSystemFactory.java
+/home/ec2-user/alluxio-1.4.0/underfs/s3/src/main/java/alluxio/underfs/s3/S3OutputStream.java

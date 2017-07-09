@@ -1,0 +1,12 @@
+alluxio/master/MultiMasterLocalAlluxioCluster.class
+alluxio/master/ClientPool.class
+alluxio/underfs/UnderFileSystemCluster$ShutdownHook.class
+alluxio/master/AbstractLocalAlluxioCluster.class
+alluxio/master/LocalAlluxioMaster.class
+alluxio/underfs/UnderFileSystemCluster.class
+alluxio/master/MultiMasterLocalAlluxioCluster$1.class
+alluxio/master/LocalAlluxioCluster.class
+alluxio/master/LocalAlluxioMaster$2.class
+alluxio/master/AbstractLocalAlluxioCluster$1.class
+alluxio/underfs/LocalFileSystemCluster.class
+alluxio/master/LocalAlluxioMaster$1.class

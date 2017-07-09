@@ -1,0 +1,7 @@
+/home/ec2-user/alluxio-1.4.0/minicluster/src/main/java/alluxio/master/LocalAlluxioMaster.java
+/home/ec2-user/alluxio-1.4.0/minicluster/src/main/java/alluxio/master/AbstractLocalAlluxioCluster.java
+/home/ec2-user/alluxio-1.4.0/minicluster/src/main/java/alluxio/underfs/LocalFileSystemCluster.java
+/home/ec2-user/alluxio-1.4.0/minicluster/src/main/java/alluxio/master/ClientPool.java
+/home/ec2-user/alluxio-1.4.0/minicluster/src/main/java/alluxio/master/MultiMasterLocalAlluxioCluster.java
+/home/ec2-user/alluxio-1.4.0/minicluster/src/main/java/alluxio/master/LocalAlluxioCluster.java
+/home/ec2-user/alluxio-1.4.0/minicluster/src/main/java/alluxio/underfs/UnderFileSystemCluster.java

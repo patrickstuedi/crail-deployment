@@ -1,0 +1,7 @@
+/home/ec2-user/alluxio-1.4.0/underfs/swift/src/main/java/alluxio/underfs/swift/MidPartLongRange.java
+/home/ec2-user/alluxio-1.4.0/underfs/swift/src/main/java/alluxio/underfs/swift/SwiftInputStream.java
+/home/ec2-user/alluxio-1.4.0/underfs/swift/src/main/java/alluxio/underfs/swift/SwiftUnderFileSystemFactory.java
+/home/ec2-user/alluxio-1.4.0/underfs/swift/src/main/java/alluxio/underfs/swift/SwiftOutputStream.java
+/home/ec2-user/alluxio-1.4.0/underfs/swift/src/main/java/alluxio/underfs/swift/http/SwiftDirectClient.java
+/home/ec2-user/alluxio-1.4.0/underfs/swift/src/main/java/alluxio/underfs/swift/SwiftUnderFileSystem.java
+/home/ec2-user/alluxio-1.4.0/underfs/swift/src/main/java/alluxio/underfs/swift/SwiftMockOutputStream.java
