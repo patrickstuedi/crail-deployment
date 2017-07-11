@@ -1,6 +1,0 @@
-alluxio/underfs/s3a/S3AInputStream.class
-alluxio/underfs/s3a/S3AUnderFileSystemFactory.class
-alluxio/underfs/s3a/S3AUnderFileSystem$S3AObjectListingChunk.class
-alluxio/underfs/s3a/S3AUnderFileSystem.class
-alluxio/underfs/s3a/S3AUtils.class
-alluxio/underfs/s3a/S3AOutputStream.class

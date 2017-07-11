@@ -1,5 +1,0 @@
-/home/ec2-user/alluxio-1.4.0/keyvalue/client/src/test/java/alluxio/client/keyvalue/ByteBufferKeyValuePartitionReaderTest.java
-/home/ec2-user/alluxio-1.4.0/keyvalue/client/src/test/java/alluxio/client/keyvalue/PayloadReaderWriterTest.java
-/home/ec2-user/alluxio-1.4.0/keyvalue/client/src/test/java/alluxio/client/keyvalue/BaseKeyValuePartitionWriterTest.java
-/home/ec2-user/alluxio-1.4.0/keyvalue/client/src/test/java/alluxio/client/keyvalue/LinearProbingIndexTest.java
-/home/ec2-user/alluxio-1.4.0/keyvalue/client/src/test/java/alluxio/client/ByteArrayOutStream.java
