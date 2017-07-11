@@ -23,7 +23,7 @@
   </property>
   <property>
     <name>fs.defaultFS</name>
-    <value>crail://zhcc025-ib0:9060</value>
+    <value>crail://10.0.142.89:9060</value>
   </property>
   <property>
     <name>fs.AbstractFileSystem.crail.impl</name>
@@ -32,9 +32,5 @@
   <property>
     <name>io.file.buffer.size</name>
     <value>1048576</value>
-  </property>
-  <property>
-    <name>hadoop.tmp.dir</name>
-    <value>/scratch/yarndata-stu/tmp</value>
   </property>
 </configuration>
