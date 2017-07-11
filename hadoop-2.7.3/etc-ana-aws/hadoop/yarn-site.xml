@@ -27,7 +27,7 @@
 
 	<property>
 		<name>yarn.resourcemanager.hostname</name>
-		<value>10.0.142.89</value>
+		<value>ip-10-0-142-89</value>
 	</property>
 
 	<property>
