@@ -33,6 +33,10 @@
 		<value>com.ibm.crail.hdfs.CrailHDFS</value>
 	</property>
 
+	<property>
+		<name>hadoop.tmp.dir</name>
+		<value>/mnt/nvme0/hadoop-tmp</value>
+	</property>
 
 
 
