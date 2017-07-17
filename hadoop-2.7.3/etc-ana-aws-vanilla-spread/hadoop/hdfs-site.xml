@@ -50,7 +50,7 @@
 
     <property>
         <name>dfs.namenode.http-address</name>
-        <value>10.0.67:121:50070</value>
+        <value>10.0.67.121:50070</value>
         <description>
             The address and the base port where the dfs namenode web ui will listen on.
         </description>
