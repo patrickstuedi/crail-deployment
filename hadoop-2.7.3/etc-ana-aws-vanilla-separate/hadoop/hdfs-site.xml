@@ -56,6 +56,22 @@
         </description>
     </property>
 
-	
+
+    <property>
+    	<name>dfs.client.read.shortcircuit</name>
+	<value>true</value>
+    </property>
+    <property>
+    	<name>dfs.client.use.legacy.blockreader.local</name>
+   	<value>true</value>
+    </property>
+    <property>
+    	<name>dfs.datanode.data.dir.perm</name>
+    	<value>750</value>
+    </property>
+    <property>
+    	<name>dfs.block.local-path-access.user</name>
+    	<value>ubuntu</value>
+    </property>
 
 </configuration>
