@@ -23,6 +23,25 @@ mkdir /mnt/nvme1/hdfsdir/dfs
 mkdir /mnt/nvme1/hdfsdir/dfs/data
 mkdir /mnt/nvme1/hadoop-tmp
 
+sudo mkfs.ext4 /dev/nvme2n1
+sudo mount /dev/nvme2n1 /mnt/nvme2
+sudo chmod a+rw /mnt/nvme2
+mkdir /mnt/nvme2/yarn
+mkdir /mnt/nvme2/yarn/local-dir
+mkdir /mnt/nvme2/hdfsdir
+mkdir /mnt/nvme2/hdfsdir/dfs
+mkdir /mnt/nvme2/hdfsdir/dfs/data
+mkdir /mnt/nvme2/hadoop-tmp
+
+sudo mkfs.ext4 /dev/nvme3n1
+sudo mount /dev/nvme3n1 /mnt/nvme3
+sudo chmod a+rw /mnt/nvme3
+mkdir /mnt/nvme3/yarn
+mkdir /mnt/nvme3/yarn/local-dir
+mkdir /mnt/nvme3/hdfsdir
+mkdir /mnt/nvme3/hdfsdir/dfs
+mkdir /mnt/nvme3/hdfsdir/dfs/data
+mkdir /mnt/nvme3/hadoop-tmp
 
 ## Config for Crail
 sudo mkdir -p /mnt/huge
