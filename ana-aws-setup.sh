@@ -33,6 +33,29 @@ sudo su
 echo 4096 > /proc/sys/vm/nr_hugepages
 exit
 
+## For disk instances ##
+sudo mkfs.ext4 /dev/xvdb
+sudo mount /dev/xvdb /mnt/sdb 
+sudo chmod a+rw /mnt/sdb
+mkdir /mnt/sdb/yarn
+mkdir /mnt/sdb/yarn/local-dir
+mkdir /mnt/sdb/hdfsdir
+mkdir /mnt/sdb/hdfsdir/dfs
+mkdir /mnt/sdb/hdfsdir/dfs/data
+mkdir /mnt/sdb/hadoop-tmp
+
+sudo mkfs.ext4 /dev/xvdc
+sudo mount /dev/xvdc /mnt/sdc
+sudo chmod a+rw /mnt/sdc
+mkdir /mnt/sdc/yarn
+mkdir /mnt/sdc/yarn/local-dir
+mkdir /mnt/sdc/hdfsdir
+mkdir /mnt/sdc/hdfsdir/dfs
+mkdir /mnt/sdc/hdfsdir/dfs/data
+mkdir /mnt/sdc/hadoop-tmp
+
+
+
 
 ####### Launch Hadoop ##########
 ## https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/ClusterSetup.html
