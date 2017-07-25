@@ -73,6 +73,6 @@
 
 	<property>
         	<name>yarn.nodemanager.local-dirs</name>
-        	<value>file:///mnt/sdc/yarn/local-dir</value>
+        	<value>file:///mnt/sdh/yarn/local-dir,file:///mnt/sdi/yarn/local-dir,file:///mnt/sdj/yarn/local-dir,file:///mnt/sdk/yarn/local-dir,file:///mnt/sdl/yarn/local-dir,file:///mnt/sdm/yarn/local-dir</value>
 	</property>
 </configuration>
