@@ -53,6 +53,34 @@ echo 4096 > /proc/sys/vm/nr_hugepages
 exit
 
 ## For disk instances ##
+sudo mkdir -p /mnt
+sudo mkdir -p /mnt/sdb
+sudo mkdir -p /mnt/sdc
+sudo mkdir -p /mnt/sdd
+sudo mkdir -p /mnt/sde
+sudo mkdir -p /mnt/sdf
+sudo mkdir -p /mnt/sdg
+sudo mkdir -p /mnt/sdh
+sudo mkdir -p /mnt/sdi
+sudo mkdir -p /mnt/sdj
+sudo mkdir -p /mnt/sdk
+sudo mkdir -p /mnt/sdl
+sudo mkdir -p /mnt/sdm
+
+
+sudo umount /mnt/sdm
+sudo umount /mnt/sdl
+sudo umount /mnt/sdk
+sudo umount /mnt/sdj
+sudo umount /mnt/sdi
+sudo umount /mnt/sdh
+sudo umount /mnt/sdg
+sudo umount /mnt/sdf
+sudo umount /mnt/sde
+sudo umount /mnt/sdd
+sudo umount /mnt/sdc
+sudo umount /mnt/sdb
+
 sudo mkfs.ext4 /dev/xvdb
 sudo mount /dev/xvdb /mnt/sdb 
 sudo chmod a+rw /mnt/sdb
@@ -74,7 +102,7 @@ mkdir /mnt/sdc/hdfsdir/dfs/data
 mkdir /mnt/sdc/hadoop-tmp
 
 sudo mkfs.ext4 /dev/xvdd
-sudo mount /dev/xvdb /mnt/sdd 
+sudo mount /dev/xvdd /mnt/sdd 
 sudo chmod a+rw /mnt/sdd
 mkdir /mnt/sdd/yarn
 mkdir /mnt/sdd/yarn/local-dir
@@ -84,7 +112,7 @@ mkdir /mnt/sdd/hdfsdir/dfs/data
 mkdir /mnt/sdd/hadoop-tmp
 
 sudo mkfs.ext4 /dev/xvde
-sudo mount /dev/xvdc /mnt/sde
+sudo mount /dev/xvde /mnt/sde
 sudo chmod a+rw /mnt/sde
 mkdir /mnt/sde/yarn
 mkdir /mnt/sde/yarn/local-dir
@@ -94,7 +122,7 @@ mkdir /mnt/sde/hdfsdir/dfs/data
 mkdir /mnt/sde/hadoop-tmp
 
 sudo mkfs.ext4 /dev/xvdf
-sudo mount /dev/xvdb /mnt/sdf
+sudo mount /dev/xvdf /mnt/sdf
 sudo chmod a+rw /mnt/sdf
 mkdir /mnt/sdf/yarn
 mkdir /mnt/sdf/yarn/local-dir
@@ -104,7 +132,7 @@ mkdir /mnt/sdf/hdfsdir/dfs/data
 mkdir /mnt/sdf/hadoop-tmp
 
 sudo mkfs.ext4 /dev/xvdg
-sudo mount /dev/xvdc /mnt/sdg
+sudo mount /dev/xvdg /mnt/sdg
 sudo chmod a+rw /mnt/sdg
 mkdir /mnt/sdg/yarn
 mkdir /mnt/sdg/yarn/local-dir
@@ -113,9 +141,8 @@ mkdir /mnt/sdg/hdfsdir/dfs
 mkdir /mnt/sdg/hdfsdir/dfs/data
 mkdir /mnt/sdg/hadoop-tmp
 
-
 sudo mkfs.ext4 /dev/xvdh
-sudo mount /dev/xvdb /mnt/sdh 
+sudo mount /dev/xvdh /mnt/sdh 
 sudo chmod a+rw /mnt/sdh
 mkdir /mnt/sdh/yarn
 mkdir /mnt/sdh/yarn/local-dir
@@ -125,7 +152,7 @@ mkdir /mnt/sdh/hdfsdir/dfs/data
 mkdir /mnt/sdh/hadoop-tmp
 
 sudo mkfs.ext4 /dev/xvdi
-sudo mount /dev/xvdc /mnt/sdi
+sudo mount /dev/xvdi /mnt/sdi
 sudo chmod a+rw /mnt/sdi
 mkdir /mnt/sdi/yarn
 mkdir /mnt/sdi/yarn/local-dir
@@ -135,7 +162,7 @@ mkdir /mnt/sdi/hdfsdir/dfs/data
 mkdir /mnt/sdi/hadoop-tmp
 
 sudo mkfs.ext4 /dev/xvdj
-sudo mount /dev/xvdb /mnt/sdj 
+sudo mount /dev/xvdj /mnt/sdj 
 sudo chmod a+rw /mnt/sdj
 mkdir /mnt/sdj/yarn
 mkdir /mnt/sdj/yarn/local-dir
@@ -145,7 +172,7 @@ mkdir /mnt/sdj/hdfsdir/dfs/data
 mkdir /mnt/sdj/hadoop-tmp
 
 sudo mkfs.ext4 /dev/xvdk
-sudo mount /dev/xvdc /mnt/sdk
+sudo mount /dev/xvdk /mnt/sdk
 sudo chmod a+rw /mnt/sdk
 mkdir /mnt/sdk/yarn
 mkdir /mnt/sdk/yarn/local-dir
@@ -155,7 +182,7 @@ mkdir /mnt/sdk/hdfsdir/dfs/data
 mkdir /mnt/sdk/hadoop-tmp
 
 sudo mkfs.ext4 /dev/xvdl
-sudo mount /dev/xvdb /mnt/sdl
+sudo mount /dev/xvdl /mnt/sdl
 sudo chmod a+rw /mnt/sdl
 mkdir /mnt/sdl/yarn
 mkdir /mnt/sdl/yarn/local-dir
@@ -165,7 +192,7 @@ mkdir /mnt/sdl/hdfsdir/dfs/data
 mkdir /mnt/sdl/hadoop-tmp
 
 sudo mkfs.ext4 /dev/xvdm
-sudo mount /dev/xvdc /mnt/sdm
+sudo mount /dev/xvdm /mnt/sdm
 sudo chmod a+rw /mnt/sdm
 mkdir /mnt/sdm/yarn
 mkdir /mnt/sdm/yarn/local-dir
