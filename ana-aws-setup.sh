@@ -43,6 +43,21 @@ mkdir /mnt/nvme3/hdfsdir/dfs
 mkdir /mnt/nvme3/hdfsdir/dfs/data
 mkdir /mnt/nvme3/hadoop-tmp
 
+
+## cgroups for memory limits
+sudo mount -t tmpfs none /sys/fs/cgroup
+sudo mkdir /sys/fs/cgroup/memory
+sudo mount -t cgroup none /sys/fs/cgroup/memory -o memory
+sudo mkdir /sys/fs/cgroup/memory/0
+sudo chmod a+rw /sys/fs/cgroup/memory/0
+sudo chmod a+rw /sys/fs/cgroup/memory/0/*
+echo 120G > /sys/fs/cgroup/memory/0/memory.limit_in_bytes
+cat /sys/fs/cgroup/memory/0/memory.limit_in_bytes
+# echo pid > /sys/fs/cgroup/memory/0/tasks
+for i in `jps | grep CoarseGrainedExecutorBackend | awk '{print $1}'`; do echo $i > /sys/fs/cgroup/memory/0/tasks; done
+for i in `jps | grep DataNode | awk '{print $1}'`; do echo $i > /sys/fs/cgroup/memory/0/tasks; done
+for i in `jps | grep NodeManager | awk '{print $1}'`; do echo $i > /sys/fs/cgroup/memory/0/tasks; done
+
 ## Config for Crail
 sudo mkdir -p /mnt/huge
 sudo mount -t hugetlbfs nodev /mnt/huge
