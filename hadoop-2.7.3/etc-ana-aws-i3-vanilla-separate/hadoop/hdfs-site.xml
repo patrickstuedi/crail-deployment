@@ -62,16 +62,7 @@
 	<value>true</value>
     </property>
     <property>
-    	<name>dfs.client.use.legacy.blockreader.local</name>
-   	<value>true</value>
+        <name>dfs.domain.socket.path</name>
+        <value>/var/lib/hadoop-hdfs/dn_socket</value>
     </property>
-    <property>
-    	<name>dfs.datanode.data.dir.perm</name>
-    	<value>750</value>
-    </property>
-    <property>
-    	<name>dfs.block.local-path-access.user</name>
-    	<value>ubuntu</value>
-    </property>
-
 </configuration>
