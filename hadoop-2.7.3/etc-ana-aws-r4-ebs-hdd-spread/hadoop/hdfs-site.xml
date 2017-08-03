@@ -26,7 +26,7 @@
 
     <property>
         <name>dfs.namenode.name.dir</name>
-        <value>file:///mnt/hdfsdir/dfs/name</value>
+        <value>file:///ebs/hdfsdir/dfs/name</value>
         <description>Determines where on the local filesystem the DFS name node
             should store the name table(fsimage).  If this is a comma-delimited list
             of directories then the name table is replicated in all of the
