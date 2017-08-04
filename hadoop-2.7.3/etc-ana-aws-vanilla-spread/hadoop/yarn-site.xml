@@ -70,9 +70,8 @@
         	<value>98.5</value>
 	</property>
 
-
 	<property>
-        	<name>yarn.nodemanager.local-dirs</name>
-        	<value>file:///mnt/nvme0/yarn/local-dir</value>
-	</property>
+                <name>yarn.nodemanager.local-dirs</name>
+                <value>file:///mnt/nvme0/yarn/local-dir,file:///mnt/nvme1/yarn/local-dir</value>
+        </property>
 </configuration>
