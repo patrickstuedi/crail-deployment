@@ -67,6 +67,17 @@ sudo su
 echo 4096 > /proc/sys/vm/nr_hugepages
 exit
 
+# Namenode ebs mount:
+sudo mount /dev/xvdf /ebs
+mkdir -p /ebs/hdfsdir
+mkdir -p /ebs/hdfsdir/dfs
+mkdir -p /ebs/hdfsdir/dfs/name
+
+
+# hadoop lib
+sudo mkdir /var/lib/hadoop-hdfs
+sudo chown ubuntu /var/lib/hadoop-hdfs
+
 ## For disk instances ##
 sudo mkdir -p /mnt
 sudo mkdir -p /mnt/sdb
