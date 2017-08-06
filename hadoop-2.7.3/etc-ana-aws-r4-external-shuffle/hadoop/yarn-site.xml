@@ -85,7 +85,7 @@
        </property>
        <property>
                <name>spark.authenticate</name>
-               <value>true</value>
+               <value>false</value>
        </property>
 
 
