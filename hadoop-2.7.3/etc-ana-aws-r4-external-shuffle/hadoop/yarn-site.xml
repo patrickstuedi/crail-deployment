@@ -27,7 +27,7 @@
 
 	<property>
 		<name>yarn.resourcemanager.hostname</name>
-		<value>ip-10-0-127-190</value>
+		<value>ip-10-0-67-121</value>
 	</property>
 
 	<property>
@@ -85,7 +85,7 @@
        </property>
        <property>
                <name>spark.authenticate</name>
-               <value>true</value>
+               <value>false</value>
        </property>
 
 
