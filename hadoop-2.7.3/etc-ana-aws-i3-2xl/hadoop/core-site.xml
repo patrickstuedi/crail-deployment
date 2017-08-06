@@ -35,7 +35,7 @@
 
 	<property>
 		<name>hadoop.tmp.dir</name>
-		<value>/mnt/sdc/hadoop-tmp</value>
+		<value>/mnt/nvme0/hadoop-tmp</value>
 	</property>
 
 
