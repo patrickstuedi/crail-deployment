@@ -37,12 +37,12 @@
 
 	<property>
 		<name>yarn.nodemanager.resource.memory-mb</name>
-		<value>262144</value>
+		<value>131072</value>
 	</property>
 
 	<property>
 		<name>yarn.scheduler.maximum-allocation-mb</name>
-		<value>262144</value>
+		<value>131072</value>
 	</property>
 
 	<property>
@@ -66,8 +66,8 @@
 	</property>
 
 	<property>
-        	<name>yarn.nodemanager.disk-health-checker.max-disk-utilization-per-disk-percentage</name>
-        	<value>98.5</value>
+		<name>yarn.nodemanager.pmem-check-enabled</name>
+		<value>false</value>
 	</property>
 
 	<property>
