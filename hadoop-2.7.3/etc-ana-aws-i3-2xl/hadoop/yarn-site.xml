@@ -27,7 +27,7 @@
 
 	<property>
 		<name>yarn.resourcemanager.hostname</name>
-		<value>ip-10-0-127-190</value>
+		<value>ip-10-0-67-121</value>
 	</property>
 
 	<property>
@@ -72,6 +72,6 @@
 
 	<property>
                 <name>yarn.nodemanager.local-dirs</name>
-                <value>file:///mnt/nvme0/yarn/local-dir</value>
+                <value>file:///mnt/sdc/yarn/local-dir</value>
         </property>
 </configuration>
