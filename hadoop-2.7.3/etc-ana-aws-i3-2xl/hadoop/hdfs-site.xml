@@ -36,7 +36,7 @@
 
     <property>
         <name>dfs.datanode.data.dir</name>
-        <value>file:///mnt/sdc/hdfsdir/dfs/data</value>
+        <value>file:///mnt/nvme0/hdfsdir/dfs/data</value>
         <description>Determines where on the local filesystem an DFS data node
             should store its blocks.  If this is a comma-delimited
             list of directories, then data will be stored in all named
@@ -50,7 +50,7 @@
 
     <property>
         <name>dfs.namenode.http-address</name>
-        <value>10.0.67.121:50070</value>
+        <value>10.0.142.89:50070</value>
         <description>
             The address and the base port where the dfs namenode web ui will listen on.
         </description>
