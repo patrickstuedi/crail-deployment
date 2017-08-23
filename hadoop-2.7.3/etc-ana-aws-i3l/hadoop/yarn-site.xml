@@ -37,12 +37,12 @@
 
 	<property>
 		<name>yarn.nodemanager.resource.memory-mb</name>
-		<value>262144</value>
+		<value>131072</value>
 	</property>
 
 	<property>
 		<name>yarn.scheduler.maximum-allocation-mb</name>
-		<value>262144</value>
+		<value>131072</value>
 	</property>
 
 	<property>
@@ -66,13 +66,12 @@
 	</property>
 
 	<property>
-        	<name>yarn.nodemanager.disk-health-checker.max-disk-utilization-per-disk-percentage</name>
-        	<value>98.5</value>
+		<name>yarn.nodemanager.pmem-check-enabled</name>
+		<value>false</value>
 	</property>
-
 
 	<property>
-        	<name>yarn.nodemanager.local-dirs</name>
-        	<value>file:///mnt/nvme0/yarn/local-dir,file:///mnt/nvme1/yarn/local-dir,file:///mnt/nvme2/yarn/local-dir,file:///mnt/nvme3/yarn/local-dir</value>
-	</property>
+                <name>yarn.nodemanager.local-dirs</name>
+                <value>file:///mnt/nvme0/yarn/local-dir</value>
+        </property>
 </configuration>
