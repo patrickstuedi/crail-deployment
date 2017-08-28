@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cat  etc/hadoop/slaves | while read slave
+cat  ../hadoop/etc/hadoop/slaves | while read slave
 do {
   	echo "ssh into $slave"
 	ssh -t $slave 'sudo sh -c "dpkg --configure -a"'	
