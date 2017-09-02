@@ -1,0 +1,51 @@
+#!/bin/sh -e
+#
+# rc.local
+#
+# This script is executed at the end of each multiuser runlevel.
+# Make sure that the script will "exit 0" on success or any other
+# value on error.
+#
+# In order to enable or disable this script just change the execution
+# bits.
+#
+# By default this script does nothing.
+
+sudo mount /dev/xvdc /mnt/sdc
+sudo chmod a+rw /mnt/sdc
+mkdir -p /mnt/sdc/yarn
+mkdir -p /mnt/sdc/yarn/local-dir
+mkdir -p /mnt/sdc/hdfsdir
+mkdir -p /mnt/sdc/hdfsdir/dfs
+mkdir -p /mnt/sdc/hdfsdir/dfs/data
+mkdir -p /mnt/sdc/hadoop-tmp
+
+sudo mount /dev/xvdd /mnt/sdd
+sudo chmod a+rw /mnt/sdd
+mkdir -p /mnt/sdd/yarn
+mkdir -p /mnt/sdd/yarn/local-dir
+mkdir -p /mnt/sdd/hdfsdir
+mkdir -p /mnt/sdd/hdfsdir/dfs
+mkdir -p /mnt/sdd/hdfsdir/dfs/data
+mkdir -p /mnt/sdd/hadoop-tmp
+
+chmod a+rw /mnt/sdc/*
+chmod a+rw /mnt/sdc/hdfsdir/*
+chmod a+rw /mnt/sdc/hdfsdir/dfs/*
+chmod a+rw /mnt/sdc/yarn/*
+
+chmod a+rw /mnt/sdd/*
+chmod a+rw /mnt/sdd/hdfsdir/*
+chmod a+rw /mnt/sdd/hdfsdir/dfs/*
+chmod a+rw /mnt/sdd/yarn/*
+
+
+chown ubuntu /mnt/sdc/yarn/local-dir
+chown ubuntu /mnt/sdc/hdfsdir/dfs/data
+chown ubuntu /mnt/sdc/hadoop-tmp
+
+chown ubuntu /mnt/sdd/yarn/local-dir
+chown ubuntu /mnt/sdd/hdfsdir/dfs/data
+chown ubuntu /mnt/sdd/hadoop-tmp
+
+exit 0
