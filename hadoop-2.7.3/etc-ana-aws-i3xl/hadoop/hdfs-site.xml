@@ -36,7 +36,7 @@
 
     <property>
         <name>dfs.datanode.data.dir</name>
-        <value>file:///mnt/sdd/hdfsdir/dfs/data</value>
+        <value>file:///mnt/nvme0/hdfsdir/dfs/data</value>
         <description>Determines where on the local filesystem an DFS data node
             should store its blocks.  If this is a comma-delimited
             list of directories, then data will be stored in all named
