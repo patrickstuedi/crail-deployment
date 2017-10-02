@@ -71,6 +71,12 @@
 	</property>
 
 	<property>
+                <name>yarn.nodemanager.pmem-check-enabled</name>
+                <value>false</value>
+        </property>
+
+
+	<property>
                 <name>yarn.nodemanager.local-dirs</name>
                 <value>file:///mnt/sdc/yarn/local-dir</value>
         </property>
