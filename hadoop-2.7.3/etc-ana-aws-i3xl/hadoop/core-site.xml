@@ -24,6 +24,11 @@
 	</property>
 
 
+  	<property>
+	    <name>io.file.buffer.size</name>
+	    <value>1048576</value>
+	</property>
+
 	<property>
 		<name>fs.crail.impl</name>
 		<value>com.ibm.crail.hdfs.CrailHadoopFileSystem</value>
