@@ -22,7 +22,21 @@
 		<name>fs.defaultFS</name>
 		<value>s3a://anakli/</value>
 	</property>
+	<property>
+		<name>fs.default.name</name>
+		<value>s3a://anakli</value>
+	</property>
 
+	<property>
+  		<name>fs.s3a.impl</name>
+		<value>org.apache.hadoop.fs.s3a.S3AFileSystem</value>
+  		<description>The implementation class of the S3A Filesystem</description>
+	</property>
+	
+	<property>
+	    <name>fs.AbstractFileSystem.s3a.impl</name>
+	    <value>org.apache.hadoop.fs.s3a.S3A</value>
+	</property>
 
 	<property>
 		<name>fs.crail.impl</name>
