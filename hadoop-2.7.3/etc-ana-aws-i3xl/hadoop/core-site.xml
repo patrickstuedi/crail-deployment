@@ -18,14 +18,20 @@
 
 <configuration>
 
-	<property>
+	<!--property>
 		<name>fs.defaultFS</name>
-		<value>s3a://anakli</value>
+		<value>hdfs://anakli</value>
 	</property>
 	<property>
 		<name>fs.default.name</name>
 		<value>s3a://anakli</value>
+	</property-->
+
+	<property>
+		<name>fs.defaultFS</name>
+		<value>hdfs://10.0.41.37:9000</value>
 	</property>
+
 
 	<property>
 	  <name>fs.s3.impl</name>
