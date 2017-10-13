@@ -19,7 +19,7 @@ export HADOOP_YARN_USER=${HADOOP_YARN_USER:-yarn}
 export CRAIL_HOME=/home/ubuntu/crail-deployment/crail
 
 #export HADOOP_CLASSPATH=$HADOOP_CLASSPATH:$HADOOP_HOME/share/hadoop/common/lib/*
-export HADOOP_CLASSPATH=$HADOOP_CLASSPATH:/home/ubuntu/crail-deployment/hadoop-2.7.3/share/hadoop/common/lib/*
+#export HADOOP_CLASSPATH=$HADOOP_CLASSPATH:/home/ubuntu/crail-deployment/hadoop-2.7.3/share/hadoop/common/lib/*
 
 # resolve links - $0 may be a softlink
 export YARN_CONF_DIR="${YARN_CONF_DIR:-$HADOOP_YARN_HOME/conf}"
