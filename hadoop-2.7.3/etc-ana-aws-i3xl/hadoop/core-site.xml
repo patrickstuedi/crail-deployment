@@ -24,7 +24,7 @@
 	</property>
 	<property>
 		<name>fs.default.name</name>
-		<value>s3://anakli</value>
+		<value>s3a://anakli</value>
 	</property>
 
 	<property>
