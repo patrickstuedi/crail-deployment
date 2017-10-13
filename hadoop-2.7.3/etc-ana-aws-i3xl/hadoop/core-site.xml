@@ -20,12 +20,12 @@
 
 	<property>
 		<name>fs.defaultFS</name>
-		<value>s3://anakli/</value>
-	</property>
-	<property>
-		<name>fs.default.name</name>
 		<value>s3://anakli</value>
 	</property>
+	<!--property>
+		<name>fs.default.name</name>
+		<value>s3://anakli</value>
+	</property-->
 
 	<property>
 	  <name>fs.s3.impl</name>
