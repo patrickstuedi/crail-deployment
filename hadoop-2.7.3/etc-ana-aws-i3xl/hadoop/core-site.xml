@@ -33,10 +33,10 @@
   		<description>The implementation class of the S3A Filesystem</description>
 	</property>
 	
-	<property>
+	<!--property>
 	    <name>fs.AbstractFileSystem.s3a.impl</name>
 	    <value>org.apache.hadoop.fs.s3a.S3A</value>
-	</property>
+	</property-->
 
 	<property>
 		<name>fs.crail.impl</name>
