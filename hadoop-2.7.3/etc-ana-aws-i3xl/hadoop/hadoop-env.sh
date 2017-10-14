@@ -32,6 +32,8 @@ export JAVA_HOME=/home/ubuntu/jdk
 
 export HADOOP_CONF_DIR=${HADOOP_CONF_DIR:-"/etc/hadoop"}
 
+#export HADOOP_CLASSPATH=$HADOOP_CLASSPATH:/home/ubuntu/crail-deployment/hadoop-2.7.3/share/hadoop/common/lib/*
+
 # Extra Java CLASSPATH elements.  Automatically insert capacity-scheduler.
 for f in $HADOOP_HOME/contrib/capacity-scheduler/*.jar; do
   if [ "$HADOOP_CLASSPATH" ]; then
