@@ -24,6 +24,16 @@
 	</property>
 
 	<property>
+	  <name>fs.s3a.access.key</name>
+	  <value>AKIAJCD2O3X3ZMAMXUZQ</value>
+	</property>
+
+	<property>
+	  <name>fs.s3a.secret.key</name>
+	  <value>0zD6r1Sl2W9OZaG/rqL7Fp8GdB6b+33TtAZvxO4F</value>
+	</property>
+
+	<property>
 	  <name>fs.s3.impl</name>
 	  <value>org.apache.hadoop.fs.s3.S3FileSystem</value>
 	  <description>The FileSystem for s3: uris.</description>
