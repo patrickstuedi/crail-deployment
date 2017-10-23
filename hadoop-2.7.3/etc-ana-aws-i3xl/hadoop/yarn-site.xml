@@ -76,6 +76,6 @@
 
 	<property>
                 <name>yarn.nodemanager.local-dirs</name>
-                <value>file:///mnt/nvme0/yarn/local-dir</value>
+                <value>file:///mnt/sdc/yarn/local-dir</value>
         </property>
 </configuration>
